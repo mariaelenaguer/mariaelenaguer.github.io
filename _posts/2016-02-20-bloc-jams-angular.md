@@ -1,13 +1,13 @@
 ---
 layout: inner
-position: right
-title: 'Bloc Jams Angular'
+position: left
+title: 'School Choice in New Haven'
 date: 2016-02-20 14:15:00
 categories: development
-tags: JavaScript AngularJS Sass Grunt
-featured_image: '/img/posts/01_bloc-jams-angular-1130x864-2x.png'
-project_link: 'https://github.com/jamigibbs/bloc-jams-angular'
-button_icon: 'github'
+tags: SchoolChoice UnitedStates
+featured_image: '/img/posts/04_nhps2.png'
+project_link: 'https://schoolchoicemechanisms.github.io//index.html'
+button_icon: 'flask'
 button_text: 'Visit Project'
-lead_text: 'A digital music player built using AngularJS'
+lead_text: 'I assisted a great group of researchers working in partnership with New Haven Public Schools to make school choice more efficient and transparent'
 ---
