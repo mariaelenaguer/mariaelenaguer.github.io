@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'COVID-19 Small Business Project'
 date: 2016-02-20 15:56:00
 categories: development

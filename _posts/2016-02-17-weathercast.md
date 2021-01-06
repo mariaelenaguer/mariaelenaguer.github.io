@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: left
+position: right
 title: 'Fiscal windfalls and corruption in Peru'
 date: 2016-02-20 15:56:00
 categories: development design
