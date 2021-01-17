@@ -5,7 +5,7 @@ title: 'School Choice in New Haven'
 date: 2016-02-20 14:15:00
 categories: development
 tags: SchoolChoice UnitedStates
-featured_image: '/img/posts/04_nhps2.png'
+featured_image: '/img/posts/04_nhps_map.png'
 project_link: 'https://schoolchoicemechanisms.github.io//index.html'
 button_icon: 'flask'
 button_text: 'Visit Project'
