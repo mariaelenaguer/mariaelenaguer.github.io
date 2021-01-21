@@ -96,7 +96,7 @@ pagination:
 footer_text: '© 2020 Maria Elena Guerrero. Based on the Phantom Jekyll theme by Jami Gibbs'
 admin_name: 'Maria Elena Guerrero'
 google_analytics: "UA-187508562-1" # Update with your own tracking ID
-enable_contact: true
+enable_contact: false
 
 #### Phantom Navigation menu
 enable_nav: true
