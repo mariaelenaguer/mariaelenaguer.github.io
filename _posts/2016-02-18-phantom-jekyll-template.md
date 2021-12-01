@@ -1,13 +1,13 @@
 ---
 layout: inner
 position: right
-title: 'Schooling Markets in LAC'
-date: 2016-02-20 21:15:00
-categories: development design
-tags: Education Development Chile Peru DominicanRepublic
+title: 'Centralized Choice and Assignment Systems'
+date: 2021-10-20 21:15:00
+categories: Education
+tags: School choice
 featured_image: '/img/posts/01_schoolingmarkets.png'
-project_link: 'https://mariaelenaguer.github.io/'
+project_link: 'https://www.ccas-project.org/'
 button_icon: 'flask'
 button_text: 'Visit Project'
-lead_text: "A multicountry project to study basic education markets in developing countries"
+lead_text: "Centralized Choice and Assignment Mechanisms across the world"
 ---
