@@ -4,8 +4,8 @@ position: right
 title: 'Centralized Choice and Assignment Systems'
 date: 2021-10-20 21:15:00
 categories: Education
-tags: School choice
-featured_image: '/img/posts/01_schoolingmarkets.png'
+tags: Schoolchoice
+featured_image: 
 project_link: 'https://www.ccas-project.org/'
 button_icon: 'flask'
 button_text: 'Visit Project'
