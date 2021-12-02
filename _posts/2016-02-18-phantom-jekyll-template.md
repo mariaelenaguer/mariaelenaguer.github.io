@@ -1,7 +1,7 @@
 ---
 layout: inner
 position: right
-title: 'Centralized Choice and Assignment Systems'
+title: 'The Rise of Centralized Choice and Assignment Mechanisms in Education Markets Around the World'
 date: 2021-10-20 21:15:00
 categories: Education
 tags: Schoolchoice
