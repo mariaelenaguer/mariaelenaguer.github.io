@@ -1,10 +1,10 @@
 ---
 layout: inner
 position: left
-title: 'Meta Analysis'
+title: 'In progress updates to be made'
 date: 2016-02-20 15:56:00
 categories: education
-tags: idol 
+tags:  
 featured_image: 
 project_link: 
 button_icon: 'flask'
