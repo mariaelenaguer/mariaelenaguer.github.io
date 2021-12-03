@@ -15,7 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 title: "James Ahabyona"
 email: 'jemo44t@gmail.com'
-description: "BA Development Economics, Makerere Univeristy Uganda"
+description: "
+
+In May 2021, I graduated from _Makerere University, College of Business and Management Sciences with a degree in Development Economics_. I also hold a diploma in Civil Engineering from the _Uganda Technical College Bushenyi_. I am particularly passionate about examining effective and evidence-based education policy in Uganda and Africa more broadly.
+
+You can find my CV [here](https://www.dropbox.com/s/ntsayn3jqypjrlp/Ahabyona%20James%20CV%20updated%20Oct%202021.pdf?dl=0).
+
+Contact me at jemo44t `at` gmail `dot` com
+
+"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jamesahabyona.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'a_ha256'
