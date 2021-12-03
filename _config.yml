@@ -108,6 +108,5 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/Projects', text: 'Projects' }
   - { url: '/Resources', text: 'Resources' }
   
