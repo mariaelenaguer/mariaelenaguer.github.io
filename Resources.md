@@ -69,7 +69,21 @@ Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportuni
 [UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
 
 
-Prof Raj Chetty and Prof Greg Bruich course ["Using Big Data Solve Economic and Social Problems"](https://stats.idre.ucla.edu/stata/)
+Professor Raj Chetty and Professor Greg Bruich course ["Using Big Data Solve Economic and Social Problems"](https://stats.idre.ucla.edu/stata/)
+
+
+## Writing Academic Articles 
+
+Professor Chris Blattman talks about [How to write like a Mad Man](https://chrisblattman.com/2012/02/12/write-like-a-mad-man/) and [How to write an essay](https://chrisblattman.com/2010/02/17/how-to-write-an-essay/) 
+
+
+[Professor John H. Cochrane advise on writing Economic Papers ](https://www.fma.org/assets/docs/membercontent/writing_cochrane.pdf)
+
+
+[Professor Don Davis advise on choosing a research topic](http://www.columbia.edu/~drd28/Thesis%20Research.pdf)
+
+ 
+
 
 
 
