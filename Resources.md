@@ -25,6 +25,9 @@ Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportuni
 [PREDOC](https://predoc.org/opportunities/)
 
 
+[The PhD Excellence Initiative](https://predoc.org/opportunities/)
+
+
 [The Michigan Ross Bridges to Doctoral Fellows Program](https://michiganross.umich.edu/programs/phd/bridges-program)
 
 
@@ -81,16 +84,13 @@ Professor Raj Chetty and Professor Greg Bruich course ["Using Big Data Solve Eco
 [Best Practices when Writing Code](https://aeturrell.github.io/coding-for-economists/intro.html) by Dr Daniel M. Sullivan
  
  
-[Data science for economists](https://github.com/uo-ec607/lectures)
+[Data science for economists](https://github.com/uo-ec607/lectures) and [Regression analysis in R](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html) by Professor Grant McDermott
 
 
 [Innovations for Poverty Action coding Guide](https://povertyaction.github.io/guides/cleaning/readme/)
 
 
 [Applied Economics with R](https://github.com/uo-ec607/lectures) by Professor Hans H. Sievertsen
-
-
-[Regression analysis in R](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html) by Professor Grant R. McDermott
 
 
 [List of open source books about R](https://www.peretaberner.eu/list-of-open-source-books-about-r/)
