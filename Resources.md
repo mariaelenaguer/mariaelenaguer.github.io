@@ -4,9 +4,17 @@ title: Resources
 permalink: /Resources/
 ---
 
-  Welcome , i suggest that you read _The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers_ by Alex Banayan and Dr Matt Clancy's Guide to [#EconTwitter.](https://mattclancy.medium.com/a-beginners-guide-to-econtwitter-d237a3a4608b/)
+  Welcome , i suggest that you read _The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers_ by Alex Banayan and Dr Matt Clancy's Guide to [#EconTwitter.](https://mattclancy.medium.com/a-beginners-guide-to-econtwitter-d237a3a4608b/) .
+  
+  
+  Are you an African student interested in applying to graduate school ? if yes , then checkout [Graduate Applications International Network](http://gain-learning.net/)
 
 ## Econ PreDoc Programs 
+
+[What is a predoctoral research assistantship, how do students find them, and why are they growing in popularity?](https://www.aeaweb.org/forum/305/predoctoral-research-assistantship-students-popularity)
+
+
+Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportunityinsights.org/wp-content/uploads/2021/09/OI_Predoc_2021-2022.pdf)
 
 
 [SIEPR Predoctoral Research Fellows Program](https://siepr.stanford.edu/programs/predoctoral-research-fellowship-opportunities/)
@@ -15,12 +23,53 @@ permalink: /Resources/
 [PREDOC](https://predoc.org/opportunities/)
 
 
+[The Michigan Ross Bridges to Doctoral Fellows Program](https://michiganross.umich.edu/programs/phd/bridges-program)
+
+
+[AEA Summer Training Program](https://www.aeaweb.org/about-aea/committees/aeasp) 
+
+
+[The GSAS Research Scholar Initiative](https://gsas.harvard.edu/diversity/research-scholar-initiative)
+
+
+[Program for Research in Markets & Organizations(PRIMO)](https://www.hbs.edu/doctoral/primo/Pages/program-details.aspx)
+
+
+[Predoctoral Program in Policy](https://www.policypredoc.org/)
+
+
+[Columbia Business School Predoctoral Fellowship Program ](https://academics.gsb.columbia.edu/predoctoral-research/predoctoral-fellows-program)
+
+
+[NBER Predoc and RA listings](https://www.nber.org/career-resources/research-assistant-positions-not-nber) 
+
+
+[Open Source Economics Laboratory](https://www.oselab.org/) 
+
+
+[Columbia Business School Summer Research Internship Program ](https://econ.columbia.edu/summer-research-internship-program-columbia-business-school/)
+
+
+[NYU Stern Pre-Doctoral](  https://www.stern.nyu.edu/programs-admissions/phd/academics/pre-doctoral-program)
+
+
+[The Stanford GSB Research Fellows Program](https://www.gsb.stanford.edu/programs/research-fellows)
+
+
 [The Predoctoral Research in Economics program (PREP) at The Becker Friedman Institute for Economics, UChicago](https://bfi.uchicago.edu/info-for/prep/)
+
+
+[MIT Sloan Predoctoral Opportunities](https://mitsloan.mit.edu/diversity/mit-sloan-predoctoral-opportunities)
+
 
 
 ## Programing 
 
  
 [UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
+
+
+Prof Raj Chetty and Prof Greg Bruich course ["Using Big Data Solve Economic and Social Problems"](https://stats.idre.ucla.edu/stata/)
+
 
 
