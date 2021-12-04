@@ -7,11 +7,13 @@ permalink: /Resources/
   Welcome , i suggest that you read _The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers_ by Alex Banayan and Dr Matt Clancy's Guide to [#EconTwitter.](https://mattclancy.medium.com/a-beginners-guide-to-econtwitter-d237a3a4608b/) .
   
   
-  Are you an African student interested in applying to graduate school ? if yes , then checkout [Graduate Applications International Network](http://gain-learning.net/)
-
+  Are you an African student interested in applying to graduate school ? if yes , then checkout [Graduate Applications International Network](http://gain-learning.net/) . Start with this advice [here](https://riccardodicato.wordpress.com/2021/04/23/phd_application_tips/) 
+  
 ## Econ PreDoc Programs 
 
 [What is a predoctoral research assistantship, how do students find them, and why are they growing in popularity?](https://www.aeaweb.org/forum/305/predoctoral-research-assistantship-students-popularity)
+
+[Tips for RA's](https://www.dropbox.com/s/eej9n1ywknlzcu6/Applied%20Tips%20for%20Applied%20Micro%20RAs.pdf?dl=0)
 
 
 Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportunityinsights.org/wp-content/uploads/2021/09/OI_Predoc_2021-2022.pdf)
@@ -63,13 +65,41 @@ Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportuni
 
 
 
-## Programing 
+## Programing , Data and Economics 
 
+ [Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html) by Professor Arthur Turrell 
  
+ [Microeconometrics Using Stata](http://cameron.econ.ucdavis.edu/musbook/MUS2_Draft_Contents_November_2020.pdf
+) by Professor A. COlin Cameron and Professor Pravin K. Trivendi
+  
+
 [UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
 
 
 Professor Raj Chetty and Professor Greg Bruich course ["Using Big Data Solve Economic and Social Problems"](https://stats.idre.ucla.edu/stata/)
+
+[Best Practices when Writing Code](https://aeturrell.github.io/coding-for-economists/intro.html) by Dr Daniel M. Sullivan
+ 
+ 
+[Data science for economists](https://github.com/uo-ec607/lectures)
+
+
+[Innovations for Poverty Action coding Guide](https://povertyaction.github.io/guides/cleaning/readme/)
+
+
+[Applied Economics with R](https://github.com/uo-ec607/lectures) by Professor Hans H. Sievertsen
+
+
+[Regression analysis in R](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html) by Professor Grant R. McDermott
+
+
+[List of open source books about R](https://www.peretaberner.eu/list-of-open-source-books-about-r/)
+
+
+[Library of Statistical Techniques (LOST)](https://lost-stats.github.io/)
+
+
+[Python for economists](https://lost-stats.github.io/) by Ewen Gallic
 
 
 ## Writing Academic Articles 
