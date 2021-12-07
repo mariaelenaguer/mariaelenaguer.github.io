@@ -79,7 +79,9 @@ Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportuni
 [UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
 
 
-Professor Raj Chetty and Professor Greg Bruich course ["Using Big Data Solve Economic and Social Problems"](https://stats.idre.ucla.edu/stata/)
+Professor Raj Chetty and Professor Greg Bruich  ["Big Data Course"](https://opportunityinsights.org/course/)
+
+ Professor Ben Elsner ["causal Inference Course "](https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H)
 
 [Best Practices when Writing Code](https://aeturrell.github.io/coding-for-economists/intro.html) by Dr Daniel M. Sullivan
  
