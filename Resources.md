@@ -4,7 +4,7 @@ title: Resources
 permalink: /Resources/
 ---
 
-  Welcome , i suggest that you read _The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers_ by Alex Banayan and Dr Matt Clancy's Guide to [#EconTwitter.](https://mattclancy.medium.com/a-beginners-guide-to-econtwitter-d237a3a4608b/) .
+  Welcome and thank you for checking out this page, i suggest that you read _The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers_ by Alex Banayan and Dr Matt Clancy's Guide to [#EconTwitter.](https://mattclancy.medium.com/a-beginners-guide-to-econtwitter-d237a3a4608b/) .
   
   
   Are you an African student interested in applying to graduate school ? if yes , then checkout [Graduate Applications International Network](http://gain-learning.net/) . Start with this advice [here](https://riccardodicato.wordpress.com/2021/04/23/phd_application_tips/) 
