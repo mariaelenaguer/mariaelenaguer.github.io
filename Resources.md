@@ -106,6 +106,9 @@ Professor Raj Chetty and Professor Greg Bruich  ["Big Data Course"](https://oppo
 
 ## Writing Academic Articles 
 
+[Professional Etiquette for the Mature Economist](https://www.ime.usp.br/~abe/lista/pdfWU48lyxCJK.pdf)  by Daniel S. Hamermesh
+
+
 Professor Chris Blattman talks about [How to write like a Mad Man](https://chrisblattman.com/2012/02/12/write-like-a-mad-man/) and [How to write an essay](https://chrisblattman.com/2010/02/17/how-to-write-an-essay/) 
 
 
