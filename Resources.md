@@ -83,12 +83,15 @@ Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportuni
 ) by Professor A. Colin Cameron and Professor Pravin K. Trivendi
   
 
-[UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
+[UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/
 
+[Introduction to Github](https://docs.github.com/en/get-started/quickstart/hello-world)
+
+ [Code and Data for the Social Sciences](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)
 
 Professor Raj Chetty and Professor Greg Bruich  ["Big Data Course"](https://opportunityinsights.org/course/)
 
- Professor Ben Elsner ["causal Inference Course "](https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H)
+Professor Ben Elsner ["causal Inference Course "](https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H)
 
 [Best Practices when Writing Code](https://aeturrell.github.io/coding-for-economists/intro.html) by Dr Daniel M. Sullivan
  
