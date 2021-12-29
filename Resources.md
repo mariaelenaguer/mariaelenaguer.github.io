@@ -28,7 +28,7 @@ Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportuni
 [The PhD Excellence Initiative](https://predoc.org/opportunities/)
 
 
-[The Michigan Ross Bridges to Doctoral Fellows Program](https://michiganross.umich.edu/programs/phd/bridges-program)
+[The Michigan Ross Bridges to Doctoral Fellows Program]('applied_micro_methods.pdf')
 
 
 [AEA Summer Training Program](https://www.aeaweb.org/about-aea/committees/aeasp) 
