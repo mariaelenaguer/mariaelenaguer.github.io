@@ -28,7 +28,7 @@ Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportuni
 [The PhD Excellence Initiative](https://predoc.org/opportunities/)
 
 
-[The Michigan Ross Bridges to Doctoral Fellows Program]('applied_micro_methods.pdf')
+[The Michigan Ross Bridges to Doctoral Fellows Program](https://michiganross.umich.edu/programs/phd/bridges-program)
 
 
 [AEA Summer Training Program](https://www.aeaweb.org/about-aea/committees/aeasp) 
@@ -117,7 +117,7 @@ Professor Chris Blattman talks about [How to write like a Mad Man](https://chris
 
 [Professor Don Davis advise on choosing a research topic](http://www.columbia.edu/~drd28/Thesis%20Research.pdf)
 
-[Recent Advances in Applied Micro Methods](http://www.columbia.edu/~drd28/Thesis%20Research.pdf)
+[Recent Advances in Applied Micro Methods]('applied_micro_methods.pdf')
 
  
 
