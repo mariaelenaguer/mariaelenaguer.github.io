@@ -71,6 +71,13 @@ Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportuni
 ## Programing , Data and Economics 
 
  [Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html) by Professor Arthur Turrell 
+
+[CME 193 - Scientific Python](http://web.stanford.edu/class/cme193/syllabus.htmll)
+
+[QuantEcon.jl](https://quantecon.org/quantecon-jl/)
+
+[Computation Economics](https://www.sas.upenn.edu/~jesusfv/teaching.html) by Professor Fernández-Villaverde
+ 
  
  [Microeconometrics Using Stata](http://cameron.econ.ucdavis.edu/musbook/MUS2_Draft_Contents_November_2020.pdf
 ) by Professor A. Colin Cameron and Professor Pravin K. Trivendi
