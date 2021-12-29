@@ -117,6 +117,8 @@ Professor Chris Blattman talks about [How to write like a Mad Man](https://chris
 
 [Professor Don Davis advise on choosing a research topic](http://www.columbia.edu/~drd28/Thesis%20Research.pdf)
 
+[Recent Advances in Applied Micro Methods](http://www.columbia.edu/~drd28/Thesis%20Research.pdf)
+
  
 
 
