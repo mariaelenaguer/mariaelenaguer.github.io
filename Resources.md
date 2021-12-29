@@ -73,7 +73,7 @@ Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportuni
  [Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html) by Professor Arthur Turrell 
  
  [Microeconometrics Using Stata](http://cameron.econ.ucdavis.edu/musbook/MUS2_Draft_Contents_November_2020.pdf
-) by Professor A. COlin Cameron and Professor Pravin K. Trivendi
+) by Professor A. Colin Cameron and Professor Pravin K. Trivendi
   
 
 [UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
