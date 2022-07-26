@@ -1,71 +1,29 @@
-<div class="container">
+{% if paginator.total_pages > 1 %}
+<nav class="pagination-wrap">
+    <ul class="pagination">
+        {% if paginator.previous_page %}
+        <li>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        {% endif %}
 
-  <div class="row">
+        {% if paginator.page_trail %}
+        {% for trail in paginator.page_trail %}
+            <li {% if page.url == trail.path %}class="active"{% endif %}>
+                <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+            </li>
+        {% endfor %}
+        {% endif %}
 
-    <div class="col-md-12">
-
-      <div class="hero-container">
-
-        <div class="hero-content">
-
-          {% if site.title != '' %}
-          <h1 class="text-center">
-            <img src="/img/James..jpg" class="bio-pic" /><br />
-            {{site.title}}
-          </h1>
-          {% endif %}
-
-          {% if site.description != '' or site.enable_contact == true %}
-          <p class="text-center">
-            {% if site.description != '' %}
-            {{site.description}}
-            {% endif %}
-            <a href=”Ahabyona James CV updated Oct 2021.pdf”> find my CV here </a>
-                        <br/>
-            <br/>
-            Please feel free to contact me at jemo44t@gmail.com or 52769@novasbe.pt
-            <br/>
-            <br/>
-            <b> Fields of interest <b>
-              <br/>
-Main: Applied Micro , Development Economics , Economics of Education
-              <br/>
-Secondary: Industrial Organization , Labour Economics
-
-
-            {% if site.enable_contact == true %}
-            {% include contact.html %}
-            {% include contact-modal.html %}
-            {% endif %}
-          </p>
-          {% endif %}
-
-          <div class="hero-buttons">
-
-            {% if site.twitter_username != '' %}
-              <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
-            {% endif %}
-            {% if site.github_username != '' %}
-              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
-            {% endif %}
-            {% if site.linkedin_username != '' %}
-              <a href="https://linkedin.com/{{ site.linkedin_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
-            {% endif %}
-
-
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <a class="section-jump text-center" href="#portfolio">
-        <i class="fa fa-angle-down fa-3x"></i>
-      </a>
-
-    </div>
-
-  </div>
-
-</div>
+        {% if paginator.next_page %}
+        <li>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
+{% endif %}
