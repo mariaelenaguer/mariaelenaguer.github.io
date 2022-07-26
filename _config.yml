@@ -17,9 +17,7 @@ title: "James Ahabyona"
 email: 'jemo44t@gmail.com'
 description: "
 
-Fall 2022 i will be joining Nova School of Business and Economics.In May 2021, I graduated from Makerere University, College of Business and Management Sciences with a degree in Development Economics.
-
-I also hold a diploma in Civil Engineering from the Uganda Technical College Bushenyi. I am particularly passionate about examining effective and evidence-based education policy in Uganda and Africa more broadly.
+I am A M.Sc. student at Nova School of Business and Economics. I hold a B.A in Development Economics from Makerere Univeristy and prior to this, i obtained a Diploma in Civil Engineering from Uganda Technical College Bushenyi. I am particularly passionate about examining effective and evidence-based education policy in Uganda and Africa more broadly.
 
 
 
@@ -73,7 +71,7 @@ pagination:
   sort_field: 'date'
 
   # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  sort_reverse: true
+  sort_reverse: true 
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
   category: 'posts'
