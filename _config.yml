@@ -94,7 +94,18 @@ pagination:
 ############################################################
 
 ### Phantom settings
+
 admin_name: '© James Ahabyona' Based on the Phantom Jekyll theme by Jami Gibbs'
+
+footer_text: '© 2021 By James Ahabyona                     
+                                                                  
+                                                         SECTIONS
+
+CONTACT                                                  [Home](https://jamesahabyona.github.io/)
+Phone: +256786626879                                     [Resources](https://jamesahabyona.github.io/Resources/)                      
+Email: jemo44t@gmail.com
+admin_name: 'James Ahabyona'
+
 google_analytics: "UA-295403843-1" # Update with your own tracking ID
 enable_contact: false
 
