@@ -10,7 +10,7 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
 [Tips for RA's](https://www.dropbox.com/s/eej9n1ywknlzcu6/Applied%20Tips%20for%20Applied%20Micro%20RAs.pdf?dl=0)
 
 
- [Pre-Doctoral Fellowship with Opportunity Insights ](https://opportunityinsights.org/joinourteam/)
+[Pre-Doctoral Fellowship with Opportunity Insights ](https://opportunityinsights.org/joinourteam/)
 
 
 [SIEPR Predoctoral Research Fellows Program](https://siepr.stanford.edu/programs/predoctoral-research-fellowship-opportunities/)
@@ -62,11 +62,10 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
 [Computation Economics](https://www.sas.upenn.edu/~jesusfv/teaching.html) by Professor Fernández-Villaverde
  
  
- [Microeconometrics Using Stata](http://cameron.econ.ucdavis.edu/musbook/MUS2_Draft_Contents_November_2020.pdf
-) by Professor A. Colin Cameron and Professor Pravin K. Trivendi
+ [Microeconometrics Using Stata](http://cameron.econ.ucdavis.edu/musbook/MUS2_Draft_Contents_November_2020.pd) by Professor A. Colin Cameron and Professor Pravin K. Trivendi
  
 
-[UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/
+[UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
 
 [Introduction to Github](https://docs.github.com/en/get-started/quickstart/hello-world)
 
