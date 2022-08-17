@@ -19,19 +19,10 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
 [PREDOC](https://predoc.org/opportunities/)
 
 
-[The PhD Excellence Initiative](https://predoc.org/opportunities/)
-
-
-[The Michigan Ross Bridges to Doctoral Fellows Program](https://michiganross.umich.edu/programs/phd/bridges-program)
-
-
 [AEA Summer Training Program](https://www.aeaweb.org/about-aea/committees/aeasp)
 
 
 [The GSAS Research Scholar Initiative](https://gsas.harvard.edu/diversity/research-scholar-initiative)
-
-
-[Program for Research in Markets & Organizations(PRIMO)](https://www.hbs.edu/doctoral/primo/Pages/program-details.aspx)
 
 
 [Predoctoral Program in Policy](https://www.policypredoc.org/)
@@ -64,9 +55,7 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
 
 ## Programing , Data and Economics
 
- [Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html) by Professor Arthur Turrell
-
-[CME 193 - Scientific Python](http://web.stanford.edu/class/cme193/syllabus.htmll)
+[CME 193 - Scientific Python](http://web.stanford.edu/class/cme193/syllabus.html)
 
 [QuantEcon.jl](https://quantecon.org/quantecon-jl/)
 
@@ -81,26 +70,14 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
 
 [Introduction to Github](https://docs.github.com/en/get-started/quickstart/hello-world)
 
- [Code and Data for the Social Sciences](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)
-
-Professor Raj Chetty and Professor Greg Bruich  ["Big Data Course"](https://opportunityinsights.org/course/)
 
 Professor Ben Elsner ["causal Inference Course "](https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H)
 
-[Best Practices when Writing Code](https://aeturrell.github.io/coding-for-economists/intro.html) by Dr Daniel M. Sullivan
- 
  
 [Data science for economists](https://github.com/uo-ec607/lectures) and [Regression analysis in R](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html) by Professor Grant McDermott
 
 
 [Innovations for Poverty Action coding Guide](https://povertyaction.github.io/guides/cleaning/readme/)
-
-
-[Applied Economics with R](https://github.com/uo-ec607/lectures) by Professor Hans H. Sievertsen
-
-
-[List of open source books about R](https://www.peretaberner.eu/list-of-open-source-books-about-r/)
-
 
 
 [Python for economists](https://lost-stats.github.io/) by Ewen Gallic
@@ -110,8 +87,6 @@ Professor Ben Elsner ["causal Inference Course "](https://www.youtube.com/playli
 
 [Professional Etiquette for the Mature Economist](https://www.ime.usp.br/~abe/lista/pdfWU48lyxCJK.pdf)  by Daniel S. Hamermesh
 
-
-Professor Chris Blattman talks about [How to write like a Mad Man](https://chrisblattman.com/2012/02/12/write-like-a-mad-man/) and [How to write an essay](https://chrisblattman.com/2010/02/17/how-to-write-an-essay/)
 
 
 [Professor John H. Cochrane advise on writing Economic Papers ](https://www.fma.org/assets/docs/membercontent/writing_cochrane.pdf)
