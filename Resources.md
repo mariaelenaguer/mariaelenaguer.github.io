@@ -74,8 +74,6 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
 
 [UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
 
-[Introduction to Github](https://docs.github.com/en/get-started/quickstart/hello-world)
-
 
 Professor Ben Elsner ["causal Inference Course "](https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H)
 
