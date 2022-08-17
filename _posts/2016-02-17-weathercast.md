@@ -1,13 +1,13 @@
 ---
 layout: inner
 position: right
-title: 'Fiscal windfalls and corruption in Peru'
-date: 2016-02-20 15:56:00
-categories: development design
-tags: PoliticalEconomy Peru Corruption NaturalResources
-featured_image: '/img/posts/03_thesis_canon.png'
-project_link: 'https://tesis.pucp.edu.pe/repositorio/handle/20.500.12404/14818'
-button_text: 'Read the paper'
+title: 'Child labour in Uganda : An annotated bibliography '
+date: 2022-05-20 15:56:00
+categories: Child labour
+tags: ChildlabourUganda
+featured_image: '/img/Mica-Collection-II.jpg'
+project_link: 'https://wncb.org/annotated-bibliographies-for-wncb-countries/'
+button_text: 'Project Website'
 button_icon: 'flask'
-lead_text: 'Undergraduate thesis: The effects of fiscal windfalls on corrruption and selection into politics: evidence from the Peruvian commodity boom (2003-2014) ﻿'
+lead_text: 'The purpose of this document is to provide an overview of the child labour situation in Uganda ﻿'  [PDF](https://jamesahabyona.github.io/Uganda-1.pdf/)
 ---
