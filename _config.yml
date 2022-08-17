@@ -18,8 +18,8 @@ email: 'mguerreroa@pucp.pe'
 description: "I am a Pre-Doctoral Fellow at Yale's Tobin Center for Economic Policy"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mariaelenaguer.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: 'mariaelenaguer'
-github_username: 'mariaelenaguer'
+twitter_username: 'a_ha256'
+github_username: 'jamesahabyona'
 medium_username: ''
 
 # Build settings
@@ -93,8 +93,8 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2020 Maria Elena Guerrero. Based on the Phantom Jekyll theme by Jami Gibbs'
-admin_name: 'Maria Elena Guerrero'
+footer_text: '© 2022 James Ahabyona. Based on the Phantom Jekyll theme by Jami Gibbs'
+admin_name: 'James Ahabyona'
 google_analytics: "UA-187508562-1" # Update with your own tracking ID
 enable_contact: false
 
@@ -102,4 +102,4 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
+  - { url: '/about', text: 'Resources' }
