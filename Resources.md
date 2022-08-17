@@ -9,7 +9,8 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
 
 [Tips for RA's](https://www.dropbox.com/s/eej9n1ywknlzcu6/Applied%20Tips%20for%20Applied%20Micro%20RAs.pdf?dl=0)
 
-
+ [Kabir Banerjee Predoctoral Fellowship](https://bfi.uchicago.edu/the-weiss-fund/apply/apply-for-funding/)
+ 
 [Pre-Doctoral Fellowship with Opportunity Insights ](https://opportunityinsights.org/joinourteam/)
 
 
