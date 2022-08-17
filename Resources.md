@@ -10,7 +10,7 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
 [Tips for RA's](https://www.dropbox.com/s/eej9n1ywknlzcu6/Applied%20Tips%20for%20Applied%20Micro%20RAs.pdf?dl=0)
 
 
-Pre-Doctoral Fellowship with Opportunity Insights  [Apply Now](https://opportunityinsights.org/wp-content/uploads/2021/09/OI_Predoc_2021-2022.pdf)
+ [Pre-Doctoral Fellowship with Opportunity Insights ](https://opportunityinsights.org/joinourteam/)
 
 
 [SIEPR Predoctoral Research Fellows Program](https://siepr.stanford.edu/programs/predoctoral-research-fellowship-opportunities/)
@@ -101,8 +101,6 @@ Professor Ben Elsner ["causal Inference Course "](https://www.youtube.com/playli
 
 [List of open source books about R](https://www.peretaberner.eu/list-of-open-source-books-about-r/)
 
-
-[Library of Statistical Techniques (LOST)](https://lost-stats.github.io/)
 
 
 [Python for economists](https://lost-stats.github.io/) by Ewen Gallic
