@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Maria Elena Guerrero"
 email: 'mguerreroa@pucp.pe'
-description: "I am a Pre-Doctoral Fellow at Yale's Tobin Center for Economic Policy"
+description: "I am a PhD student in Economics at UCLA"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mariaelenaguer.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'mariaelenaguer'
