@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "James Ahabyona"
 email: 'jemo44t@gmail.com'
-description: "I am currently pursuing a Master's in Economics at Nova School of Business and Economics. I hold a B.A. in Development Economics from Makerere University and before that, I earned a Diploma in Civil Engineering from Uganda Technical College Bushenyi . My research interests are in Applied Microeconomics , Development Economics and Education ."
+description: "I am currently pursuing a Master's in Economics at Nova School of Business and Economics. I hold a B.A. in Development Economics from Makerere University and before that, I earned a Diploma in Civil Engineering from Uganda Technical College Bushenyi . My research interests are Applied Microeconomics , Development Economics and Education ."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jamesahabyona.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'a_ha256'
