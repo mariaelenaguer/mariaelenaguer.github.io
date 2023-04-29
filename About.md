@@ -12,3 +12,8 @@ In my previous experience, I've led teams at a startup and a non-profit, honing 
 
 You can find my CV [here]().
 
+### Fields of interest
+
+Main: Development economics, Industrial Organization
+
+Secondary: Labor economics, Political Economy
