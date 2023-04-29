@@ -4,7 +4,7 @@ title: About
 permalink: /About/
 ---
 ## About me
-I am a Ugandan born and raised in Kampala, and my life experiences have played a significant role in shaping my interests in Development Economics research particularly education inequality and exploreing ways to improve access to quality education , regardless of background or location.
+I am a Ugandan born and raised in Kampala, and i am my interested in Development Economics research particularly education inequality and exploreing ways to improve access to quality education , regardless of background or location.
  
 As a final year Master's in Economics student at Nova School of Business and Economics, I have taken advanced classes in microeconometrics, machine learning, international migration and development economics, and am passionate about leveraging data-driven approaches to solve complex real-world problems. With a strong foundation in data analysis, I am proficient in Stata and R, and have extensive experience working with Python packages such as NumPy, Pandas, Matplotlib, Tensorflow, and Scikit-learn. These packages have been invaluable in efficiently performing data cleaning, manipulation, visualization, and modeling tasks in my individual and group projects.
 
