@@ -9,57 +9,6 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
  
   Are you an African student interested in applying to graduate school ? if yes , then checkout [Graduate Applications International Network](http://gain-learning.net/) . Start with this advice [here](https://riccardodicato.wordpress.com/2021/04/23/phd_application_tips/)
  
-## Econ PreDoc Programs
-
-[What is a predoctoral research assistantship, how do students find them, and why are they growing in popularity?](https://www.aeaweb.org/forum/305/predoctoral-research-assistantship-students-popularity)
-
-[Tips for RA's](https://www.dropbox.com/s/eej9n1ywknlzcu6/Applied%20Tips%20for%20Applied%20Micro%20RAs.pdf?dl=0)
-
- [Kabir Banerjee Predoctoral Fellowship](https://bfi.uchicago.edu/the-weiss-fund/apply/apply-for-funding/)
- 
-[Pre-Doctoral Fellowship with Opportunity Insights ](https://opportunityinsights.org/joinourteam/)
-
-
-[SIEPR Predoctoral Research Fellows Program](https://siepr.stanford.edu/programs/predoctoral-research-fellowship-opportunities/)
-
-
-[PREDOC](https://predoc.org/opportunities/)
-
-
-[AEA Summer Training Program](https://www.aeaweb.org/about-aea/committees/aeasp)
-
-
-[The GSAS Research Scholar Initiative](https://gsas.harvard.edu/diversity/research-scholar-initiative)
-
-
-[Predoctoral Program in Policy](https://www.policypredoc.org/)
-
-
-[Columbia Business School Predoctoral Fellowship Program ](https://academics.gsb.columbia.edu/predoctoral-research/predoctoral-fellows-program)
-
-
-[NBER Predoc and RA listings](https://www.nber.org/career-resources/research-assistant-positions-not-nber)
-
-
-[Open Source Economics Laboratory](https://www.oselab.org/)
-
-
-[Columbia Business School Summer Research Internship Program ](https://econ.columbia.edu/summer-research-internship-program-columbia-business-school/)
-
-
-[NYU Stern Pre-Doctoral](  https://www.stern.nyu.edu/programs-admissions/phd/academics/pre-doctoral-program)
-
-
-[The Stanford GSB Research Fellows Program](https://www.gsb.stanford.edu/programs/research-fellows)
-
-
-[The Predoctoral Research in Economics program (PREP) at The Becker Friedman Institute for Economics, UChicago](https://bfi.uchicago.edu/info-for/prep/)
-
-
-[MIT Sloan Predoctoral Opportunities](https://mitsloan.mit.edu/diversity/mit-sloan-predoctoral-opportunities)
-
-
-
 ## Programing , Data and Economics
 
 [CME 193 - Scientific Python](http://web.stanford.edu/class/cme193/syllabus.html)
