@@ -14,6 +14,6 @@ You can find my CV [here]().
 
 ### Fields of interest
 
-Main: Development economics, Industrial Organization
+Main: Development economics, Economics of Education 
 
-Secondary: Labor economics, Political Economy
+Secondary: Political Economy
