@@ -17,29 +17,16 @@ Welcome and thank you for checking out this page, i suggest that you read _The T
 
 [Computation Economics](https://www.sas.upenn.edu/~jesusfv/teaching.html) by Professor Fernández-Villaverde
  
- 
- [Microeconometrics Using Stata](http://cameron.econ.ucdavis.edu/musbook/MUS2_Draft_Contents_November_2020.pd) by Professor A. Colin Cameron and Professor Pravin K. Trivendi
- 
 
 [UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
-
-
-Professor Ben Elsner ["causal Inference Course "](https://www.youtube.com/playlist?list=PLyvUJLHD8IsJCB7ALqwjRG1BjL5JxE__H)
-
- 
-[Data science for economists](https://github.com/uo-ec607/lectures) and [Regression analysis in R](https://raw.githack.com/uo-ec607/lectures/master/08-regression/08-regression.html) by Professor Grant McDermott
 
 
 [Innovations for Poverty Action coding Guide](https://povertyaction.github.io/guides/cleaning/readme/)
 
 
-[Python for economists](https://lost-stats.github.io/) by Ewen Gallic
-
-
-## Writing Academic Articles
+## others
 
 [Professional Etiquette for the Mature Economist](https://www.ime.usp.br/~abe/lista/pdfWU48lyxCJK.pdf)  by Daniel S. Hamermesh
-
 
 
 [Professor John H. Cochrane advise on writing Economic Papers ](https://www.fma.org/assets/docs/membercontent/writing_cochrane.pdf)
