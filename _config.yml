@@ -102,6 +102,7 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
+   - { url: '/', text: 'About' }
   - { url: '/Resources', text: 'Resources' }
   
   # Custom styling
