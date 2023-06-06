@@ -107,7 +107,7 @@ nav_item:
   # Custom styling
 style:
   header:
-    background-color: "#6fd9d9"
+    background-color: "#000000"
     color: "#ffffff"
     padding: 20px
     text-align: center
