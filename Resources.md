@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: Resources
-permalink: /resources/
+permalink: /Resources/
 ---
 
 Welcome and thank you for checking out this page, i suggest that you read _The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers_ by Alex Banayan and Dr Matt Clancy's Guide to [#EconTwitter.](https://mattclancy.medium.com/a-beginners-guide-to-econtwitter-d237a3a4608b/) .
