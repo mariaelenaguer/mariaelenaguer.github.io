@@ -2,42 +2,26 @@
 .container {
   color: #ffffff; /* Set text color to white */
   background-color: #6fd9d9; /* Set fresh and cool background color */
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .bio-pic {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
   width: 180px; /* Set the image width to 180 pixels */
   height: auto;
 }
 
 .hero-content {
-  text-align: left; /* Align the content to the left */
-  margin-right: 350px; /* Add margin to create space for the image on the right */
-}
-
-.hero-content h1 {
-  margin-top: 0; /* Remove default margin for the heading */
-}
-
-.hero-content p {
-  margin: 0;
+  text-align: center; /* Center align the content */
+  margin-bottom: 2em; /* Add margin at the bottom for spacing */
 }
 
 .hero-buttons {
-  text-align: right;
-  position: absolute;
-  bottom: 0;
-  right: 10px;
-}
-
-.section-jump {
-  display: block;
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1em; /* Add margin at the top for spacing */
 }
 
 @media screen and (max-width: 768px) {
@@ -103,8 +87,7 @@
         {% if site.title != '' %}
         <img src="img/JM[1].jpg" class="bio-pic" /><br />
         {% endif %}
-        
       </div>
     </div>
   </div>
-</div
+</div>
