@@ -15,13 +15,13 @@
 }
 
 .hero-content {
-  text-align: center; /* Center align the content */
-  margin-bottom: 2em; /* Add margin at the bottom for spacing */
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 .hero-buttons {
   text-align: center;
-  margin-top: 1em; /* Add margin at the top for spacing */
+  margin-top: 1em;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,18 +54,28 @@
   <div class="row">
     <div class="col-md-12">
       <div class="hero-container">
-        <div class="hero-content">
-          {% if site.title != '' %}
-          <h1>{{site.title}}</h1>
-          {% endif %}
+        {% if site.title != '' %}
+        <h1>{{site.title}}</h1>
+        {% endif %}
+        
+        {% if site.title != '' %}
+        <img src="img/JM[1].jpg" class="bio-pic" /><br />
+        {% endif %}
 
+        <div class="hero-content">
           <p>
-            I am interested in Development Economics research, particularly education inequality and exploring ways to improve access to quality education, regardless of background or location. I am a final year Master's in Economics student at <a href="https://www.novasbe.unl.pt/en/programs/masters/economics/program">Nova School of Business and Economics</a>
+            I am interested in Development Economics research, particularly education inequality and exploring ways to improve access to quality education, regardless of background or location. I am a final year Master's in Economics student at <a href="https://www.novasbe.unl.pt/en/programs/masters/economics/program">Nova School of Business and Economics</a>.
           </p>
           
-           You can find my CV <a href="#">here</a>
-          
-          <p> Contact: jemo44t@gmail.com or 52769@novasbe.pt</p>
+          <p>You can find my CV <a href="#">here</a>.</p>
+
+          <h3>Fields of Interest</h3>
+          <ul>
+            <li>Main: Development economics, Economics of Education</li>
+            <li>Secondary: Political Economy</li>
+          </ul>
+
+          <p>Contact: jemo44t@gmail.com or 52769@novasbe.pt</p>
         </div>
 
         {% if site.github_username != '' %}
@@ -78,10 +88,6 @@
         <div class="hero-buttons">
           <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
         </div>
-        {% endif %}
-
-        {% if site.title != '' %}
-        <img src="img/JM[1].jpg" class="bio-pic" /><br />
         {% endif %}
       </div>
     </div>
