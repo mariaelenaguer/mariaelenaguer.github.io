@@ -38,7 +38,7 @@
   .container {
     padding: 2em;
   }
-  
+
   .section-jump {
     display: flex;
     justify-content: center;
@@ -51,11 +51,11 @@
   <div class="row">
     <div class="col-md-12">
       <div class="hero-container">
-        {% if site.title != '' %}
-        <h1>{{site.title}}</h1>
-        {% endif %}
-
         <div class="hero-content">
+          {% if site.title != '' %}
+          <h1>{{site.title}}</h1>
+          {% endif %}
+
           <p>
             I am interested in Development Economics research, particularly education inequality and exploring ways to improve access to quality education, regardless of background or location. I am a final year Master's in Economics student at <a href="https://www.novasbe.unl.pt/en/programs/masters/economics/program">Nova School of Business and Economics</a>. You can find my CV <a href="#">here</a>.
           </p>
@@ -69,7 +69,6 @@
           <p>Email: jemo44t@gmail.com or 52769@novasbe.pt</p>
         </div>
 
-        {% if site.github_username != '' %}
         <div class="hero-buttons">
           {% if site.twitter_username != '' %}
           <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
@@ -78,7 +77,10 @@
           <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
           {% endif %}
         </div>
-        {% endif %}
+
+        <div class="section-jump">
+          <a class="recent-work-button" href="#portfolio">Recent Work</a>
+        </div>
 
         {% if site.title != '' %}
         <img src="img/JM[1].jpg" class="bio-pic" /><br />
