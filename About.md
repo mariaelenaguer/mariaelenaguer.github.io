@@ -1,8 +1,7 @@
 ---
----
 layout: inner
 title: About
-permalink: /About/
+permalink: /about/
 ---
 
 <style>
@@ -59,4 +58,3 @@ permalink: /About/
     </p>
   </div>
 </div>
-
