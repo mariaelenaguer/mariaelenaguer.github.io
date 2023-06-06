@@ -3,23 +3,9 @@ layout: inner
 title: About
 permalink: /about/
 ---
-###About me
-I recently co-authored a report titled "<a href="Uganda-1.pdf">Child labour in Uganda: An annotated Bibliography</a>" with Vanessa Cordeiro, which highlights the latest research on this pressing issue.
-    </p>
-  </div>
+## About me
+I am interested in Development Economics research particularly education inequality and exploring ways to improve access to quality education , regardless of background or location. I am a final year Master's in Economics student at [Nova School of Business and Economics](https://www.novasbe.unl.pt/en/programs/masters/economics/program) . You can find my CV [here]().
 
-  <div class="about-section">
-    <h3 class="about-title">CV</h3>
-    <p class="about-content">
-      You can find my CV <a href="#">here</a>.
-    </p>
-  </div>
-
-  <div class="about-section">
-    <h3 class="about-title">Fields of interest</h3>
-    <p class="about-content">
-      <strong>Main:</strong> Development economics, Economics of Education <br>
-      <strong>Secondary:</strong> Political Economy
-    </p>
-  </div>
-</div>
+### Fields of interest
+Main: Development economics, Economics of Education 
+Secondary: Political Economy
