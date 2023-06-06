@@ -33,38 +33,33 @@
     padding: 2em; /* Add padding for smaller screens */
   }
   
-  .recent-work-button {
-  display: inline-block;
-  background-color: #ffffff;
-  color: #6fd9d9;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
+.recent-work-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #6fd9d9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
 
-.recent-work-button:hover {
-  background-color: #d9f5f5;
-}
+  .recent-work-button:hover {
+    background-color: #d9f5f5;
+  }
 </style>
+
 <div class="container">
-
   <div class="row">
-
     <div class="col-md-12">
-
       <div class="hero-container">
-
         <div class="hero-content">
-
           {% if site.title != '' %}
           <h1 class="text-center">
             <img src="img/JM[1].jpg" class="bio-pic" /><br />
             {{site.title}}
           </h1>
           {% endif %}
-          
 
           {% if site.description != '' or site.enable_contact == true %}
           <p class="text-center">
@@ -78,26 +73,23 @@
             {% endif %}
           </p>
           {% endif %}
-          
-       <font size="4">Email : jemo44t@gmail.com or 52769@novasbe.pt </font>
-        
-          <div class="hero-buttons">
 
+          <span style="font-size: 18px;">Email: jemo44t@gmail.com or 52769@novasbe.pt</span>
+
+          <div class="hero-buttons">
             {% if site.twitter_username != '' %}
-              <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+            <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
             {% endif %}
             {% if site.github_username != '' %}
-              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
+            <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
             {% endif %}
-          
-             </p>
-          <a class="recent-work-button" href="#portfolio">Recent Work</a>
+            </p>
+            <a class="recent-work-button" href="#portfolio">Recent Work</a>
           </div>
-
         </div>
-
+      </div>
     </div>
-
   </div>
+</div>
 
 </div>
