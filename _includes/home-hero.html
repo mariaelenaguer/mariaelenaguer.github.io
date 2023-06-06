@@ -4,7 +4,6 @@
   background-color: #6fd9d9; /* Set fresh and cool background color */
   position: relative;
 }
-}
 
 .bio-pic {
   position: absolute;
@@ -16,7 +15,12 @@
 }
 
 .hero-content {
-  text-align: center;
+  text-align: right; /* Align the content to the right */
+  margin-right: 350px; /* Add margin to create space for the image on the right */
+}
+
+.hero-content h1 {
+  margin-top: 0; /* Remove default margin for the heading */
 }
 
 .hero-content p {
@@ -61,14 +65,12 @@
       <div class="hero-container">
         <div class="hero-content">
           {% if site.title != '' %}
-          <h1 class="text-center">
-            <img src="img/JM[1].jpg" class="bio-pic" /><br />
-            {{site.title}}
-          </h1>
+          <img src="img/JM[1].jpg" class="bio-pic" /><br />
+          <h1>{{site.title}}</h1>
           {% endif %}
 
           {% if site.description != '' or site.enable_contact == true %}
-          <p class="text-center">
+          <p>
             {% if site.description != '' %}
             {{site.description}}
             {% endif %}
