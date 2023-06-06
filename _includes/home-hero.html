@@ -34,8 +34,6 @@
   right: 10px;
 }
 
-
-
 @media screen and (max-width: 768px) {
   .container {
     padding: 2em;
@@ -46,32 +44,26 @@
     justify-content: center;
     margin-top: 1em;
   }
-  
- 
-  
-  
-
+}
 </style>
 
 <div class="container">
   <div class="row">
     <div class="col-md-12">
       <div class="hero-container">
-        <div class="hero-content">
-          {% if site.title != '' %}
-          <h1>{{site.title}}</h1>
-          {% endif %}
+        {% if site.title != '' %}
+        <h1>{{site.title}}</h1>
+        {% endif %}
 
+        <div class="hero-content">
           <p>
             I am interested in Development Economics research, particularly education inequality and exploring ways to improve access to quality education, regardless of background or location. I am a final year Master's in Economics student at <a href="https://www.novasbe.unl.pt/en/programs/masters/economics/program">Nova School of Business and Economics</a>. You can find my CV <a href="#">here</a>.
           </p>
 
           <h3>Fields of Interest</h3>
           <ul>
-            
             <li style="font-size: 18px;">Main: Development economics, Economics of Education</li>
             <li style="font-size: 18px;">Secondary: Political Economy</li>
-         
           </ul>
 
           <p>Email: jemo44t@gmail.com or 52769@novasbe.pt</p>
@@ -79,7 +71,6 @@
 
         {% if site.github_username != '' %}
         <div class="hero-buttons">
-           <div class="hero-buttons">
           {% if site.twitter_username != '' %}
           <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
           {% endif %}
@@ -87,19 +78,12 @@
           <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
           {% endif %}
         </div>
-
-        {% if site.twitter_username != '' %}
-        <div class="hero-buttons">
-          <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
-        </div>
         {% endif %}
 
         {% if site.title != '' %}
         <img src="img/JM[1].jpg" class="bio-pic" /><br />
         {% endif %}
       </div>
-    <div class="section-jump">
-  <a class="recent-work-button" href="#portfolio">Recent Work</a>
-      </div>
+    </div>
   </div>
-</div
+</div>
