@@ -24,6 +24,19 @@
   margin-top: 1em;
 }
 
+.hero-buttons a {
+  display: inline-block;
+  margin-right: 1em; /* Add space between icons */
+}
+
+.hero-buttons a:last-child {
+  margin-right: 0; /* Remove margin for the last icon */
+}
+
+.hero-buttons i {
+  font-size: 24px; /* Set icon size to 24 pixels */
+}
+
 @media screen and (max-width: 768px) {
   .container {
     padding: 2em;
@@ -70,15 +83,15 @@
           <p>Contact: jemo44t@gmail.com or 52769@novasbe.pt</p>
         </div>
 
-        {% if site.github_username != '' %}
+        {% if site.github_username != '' or site.twitter_username != '' %}
         <div class="hero-buttons">
-          <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
-        </div>
-        {% endif %}
-
-        {% if site.twitter_username != '' %}
-        <div class="hero-buttons">
-          <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+          {% if site.github_username != '' %}
+          <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg"></i></a>
+          {% endif %}
+          
+          {% if site.twitter_username != '' %}
+          <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-lg"></i></a>
+          {% endif %}
         </div>
         {% endif %}
       </div>
