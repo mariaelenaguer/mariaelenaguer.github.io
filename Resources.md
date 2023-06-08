@@ -12,31 +12,20 @@ permalink: /Resources/
 
 ## Programing , Data and Economics 
 
-
-
 [CME 193 - Scientific Python](http://web.stanford.edu/class/cme193/syllabus.htmll)
 
 [QuantEcon.jl](https://quantecon.org/quantecon-jl/)
-
-[Computation Economics](https://www.sas.upenn.edu/~jesusfv/teaching.html) by Professor Fernández-Villaverde
- 
- 
- [Microeconometrics Using Stata](http://cameron.econ.ucdavis.edu/musbook/MUS2_Draft_Contents_November_2020.pdf
-) by Professor A. Colin Cameron and Professor Pravin K. Trivendi
-  
-[UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/
+   
+[UCLA Institute for Digital Resaerch and Education](https://stats.idre.ucla.edu/stata/)
 
 [Innovations for Poverty Action coding Guide](https://povertyaction.github.io/guides/cleaning/readme/)
-
 
 
 ## others
 
 [Professional Etiquette for the Mature Economist](https://www.ime.usp.br/~abe/lista/pdfWU48lyxCJK.pdf)  by Daniel S. Hamermesh
 
-
 Professor Chris Blattman talks about [How to write like a Mad Man](https://chrisblattman.com/2012/02/12/write-like-a-mad-man/) and [How to write an essay](https://chrisblattman.com/2010/02/17/how-to-write-an-essay/) 
-
 
 [Professor John H. Cochrane advise on writing Economic Papers ](https://www.fma.org/assets/docs/membercontent/writing_cochrane.pdf)
 
