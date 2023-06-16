@@ -1,7 +1,7 @@
 <style>
 .container {
-  color: #ffffff; /* Set text color to white */
-  background-color: #6fd9d9; /* Set fresh and cool background color */
+  color: #ffffff;
+  background-color: #6fd9d9;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +10,7 @@
 }
 
 .bio-pic {
-  width: 180px; /* Set the image width to 180 pixels */
+  width: 180px;
   height: auto;
 }
 
@@ -26,15 +26,15 @@
 
 .hero-buttons a {
   display: inline-block;
-  margin-right: 1em; /* Add space between icons */
+  margin-right: 1em;
 }
 
 .hero-buttons a:last-child {
-  margin-right: 0; /* Remove margin for the last icon */
+  margin-right: 0;
 }
 
 .hero-buttons i {
-  font-size: 24px; /* Set icon size to 24 pixels */
+  font-size: 24px;
 }
 
 @media screen and (max-width: 768px) {
@@ -62,112 +62,83 @@
   }
 }
 </style>
+
 <div id="wrapper" class="fade-in">
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <div class="hero-container">
-        {% if site.title != '' %}
-        <h1>{{site.title}}</h1>
-        {% endif %}
-        
-        {% if site.title != '' %}
-        <img src="img/JM[1].jpg" class="bio-pic" /><br />
-        {% endif %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="hero-container">
+          {% if site.title != '' %}
+          <h1>{{site.title}}</h1>
+          {% endif %}
+          
+          {% if site.title != '' %}
+          <img src="img/JM[1].jpg" class="bio-pic" /><br />
+          {% endif %}
+    
+          <div class="hero-content">
+            <p style="font-size: 18px; line-height: 1.5; color: #333;">
+              I am interested in Development Economics research, particularly education inequality and exploring ways to improve access to quality education, regardless of background or location. I am a final year Master's in Economics student at 
+              <a href="https://www.novasbe.unl.pt/en/programs/masters/economics/program" style="color: #007bff; text-decoration: none;">Nova School of Business and Economics</a>.
+            </p>
+            
+            <p style="font-size: 20px; font-weight: bold; color: #333;">
+              You can find my CV <a href="#" style="color: #007bff; text-decoration: none;">here</a>.
+            </p>
+            
+            <p style="font-size: 18px; line-height: 1.5; color: #333;">
+              Contact: <a href="mailto:jemo44t@gmail.com" style="color: #007bff; text-decoration: none;">jemo44t@gmail.com</a> or <a href="mailto:52769@novasbe.pt" style="color: #007bff; text-decoration: none;">52769@novasbe.pt</a>
+            </p>
+          </div>
+    
+          {% if site.github_username != '' or site.twitter_username != '' %}
+          <div class="hero-buttons">
+            {% if site.github_username != '' %}
+            <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github fa-lg"></i></a>
+            {% endif %}
+          
+           
+{% if site.twitter_username != '' %}
+      <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter fa-lg"></i></a>
+      {% endif %}
+    </div>
+  </ul>
+</nav>
 
-        <div class="hero-content">
-         <p style="font-size: 18px; line-height: 1.5; color: #333;">
-        I am interested in Development Economics research, particularly education inequality and exploring ways to improve access to quality education, regardless of background or location. I am a final year Master's in Economics student at 
-        <a href="https://www.novasbe.unl.pt/en/programs/masters/economics/program" style="color: #007bff; text-decoration: none;">Nova School of Business and Economics</a>.
-    </p>
-    
-    <p style="font-size: 20px; font-weight: bold; color: #333;">
-        You can find my CV <a href= # style="color: #007bff; text-decoration: none;">here</a>.
-    </p>
-    
-    <p style="font-size: 18px; line-height: 1.5; color: #333;">
-        Contact: <a href="mailto:jemo44t@gmail.com" style="color: #007bff; text-decoration: none;">jemo44t@gmail.com</a> or <a href="mailto:52769@novasbe.pt" style="color: #007bff; text-decoration: none;">52769@novasbe.pt</a>
-    </p>
-    
-        </div>
-
-        {% if site.github_username != '' or site.twitter_username != '' %}
-        <
-	      <nav id="nav">
-		<ul class="links">
-<div class="hero-buttons">
-	    
-    {% if site.github_username != '' %}
-    <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg"></i></a>
-    {% endif %}
-  
-    {% if site.twitter_username != '' %}
-    <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-lg"></i></a>
-    {% endif %}
-	</nav>
+<ul class="actions">
+  <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+</ul>
 </div>
-     <ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">PROJECTS</a>
-					</header>
+<!-- Header -->
+<header id="header">
+  <a href="index.html" class="logo">PROJECTS</a>
+</header>
 
 <!-- Featured Post -->
-							<article class="post">
-								<header class="major">
-									<span class="date"></span>
-									<h2><a >Python Retail Store Analysis <br />
-									</a></h2>
-									<p>For this project I performed some analysis of a Retail store chain similar to a Walmart or Bestbuy and performed diffrent analysis to gain diffrent insights</p>
-								</header>All analysis were done using Python. The code and power piont presentation are below
-								<a href="https://drive.google.com/drive/folders/1p3e-Ftw2xPl12KWF69yNYVefdE9AS65C?usp=sharing" class="image main"><img src="images/MV5BMTkyNjI1MDc5OV5BMl5BanBnXkFtZTgwNzc3MzExNzE@._V1_.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://drive.google.com/drive/folders/1p3e-Ftw2xPl12KWF69yNYVefdE9AS65C?usp=sharing" class="button large">Veiw Project</a></li>
-								</ul>
-							</article>
+<article class="post">
+  <header class="major">
+    <span class="date"></span>
+    <h2><a>Python Retail Store Analysis</a></h2>
+    <p>For this project, I performed some analysis of a Retail store chain similar to a Walmart or Bestbuy and gained insights using Python.</p>
+  </header>
+  All analysis was done using Python. The code and PowerPoint presentation are available below.
+  <a href="https://drive.google.com/drive/folders/1p3e-Ftw2xPl12KWF69yNYVefdE9AS65C?usp=sharing" class="image main"><img src="images/MV5BMTkyNjI1MDc5OV5BMl5BanBnXkFtZTgwNzc3MzExNzE@._V1_.jpg" alt="" /></a>
+  <ul class="actions special">
+    <li><a href="https://drive.google.com/drive/folders/1p3e-Ftw2xPl12KWF69yNYVefdE9AS65C?usp=sharing" class="button large">View Project</a></li>
+  </ul>
+</article>
 
-						<!-- Posts -->
-							<section class="posts Featured">
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://public.tableau.com/app/profile/uzornne.thaddeus">Tableau Projects<br />
-										</a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/uzornne.thaddeus" class="image fit"><img src="images/Tableau.png" alt="" /></a>
-									<p>Tableau projects and Visualisations are on my Tableau Public profile
-									</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/uzornne.thaddeus" class="button">Veiw Project</a></li>
-									</ul>
-								</article>
-								<article>
-								
-						<!-- Posts -->
-						<section class="posts Featured">
-							<article>
-								<header>
-									<span class="date"></span>
-									<h2><a href="https://github.com/nonsobeam/India-Covid-19-situation-and-analysis">India Covid-19 cleaning and Analysis with Google Sheets<br />
-									</a></h2>
-								</header>
-								<a href="https://github.com/nonsobeam/India-Covid-19-situation-and-analysis" class="image fit"><img src="images/200324021755-07-coronavirus-india-0324-super-tease.jpg" alt="" /></a>
-								<p>For this Project I made a thorough analysis of the covid-19 pandemic on Indian States.
-									All analysis and Visualisations were made using Google sheets.
-								</p>
-								<ul class="actions special">
-									<li><a href="https://github.com/nonsobeam/India-Covid-19-situation-and-analysis" class="button">Veiw Project</a></li>
-								</ul>
-							</article>
-							<article>			
-
-{% endif %}
-</div>
-</div>
-</div>
-</div>
-</div>
+<!-- Posts -->
+<section class="posts Featured">
+  <article>
+    <header>
+      <span class="date"></span>
+      <h2><a href="https://public.tableau.com/app/profile/uzornne.thaddeus">Tableau Projects</a></h2>
+    </header>
+    <a href="https://public.tableau.com/app/profile/uzornne.thaddeus" class="image fit"><img src="images/Tableau.png" alt="" /></a>
+    <p>Tableau projects and visualizations are available on my Tableau Public profile.</p>
+    <ul class="actions special">
+      <li><a href="https://public.tableau.com/app/profile/uzornne.thaddeus" class="button">View Project</a></li>
+    </ul>
+  </article>
