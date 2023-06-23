@@ -105,9 +105,9 @@ nav_item:
   ##- { url: '/Resources', text: 'Resources' }
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#C7E9EE"
-navbar-text-col: "#404040"
-navbar-border-col: "#C7E9EE"
+nav_item-col: "#C7E9EE"
+nav_item-text-col: "#404040"
+nav_item-border-col: "#C7E9EE"
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
