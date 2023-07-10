@@ -3,11 +3,11 @@ layout: inner
 title: Research
 permalink: /Research/
 ---
-## In Progress
+#### In Progress
  
  Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova School of Business and Economics & Scientific Director Novafrica).
   
-## Policy Reports
+#### Policy Reports
 
 [Child labour in Uganda : An annotated bibliography](/Uganda-1.pdf) joint with Vanessa Cordeiro
 
