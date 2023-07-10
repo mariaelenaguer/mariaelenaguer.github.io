@@ -5,7 +5,7 @@ permalink: /Research/
 ---
 
  ## Work in progress
- Master’s thesis supervised by: Professor Catia Batista (Nova SChool of Business and Economics).
+ Master’s thesis supervised by: Professor Catia Batista (Nova School of Business and Economics & Scientific Director Novafrica).
   
 ## Policy Reports
 
