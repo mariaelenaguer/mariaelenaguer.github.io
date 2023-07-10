@@ -9,7 +9,6 @@ permalink: /Research/
   
 ## Policy Reports
 
-[Child labour in Uganda : An annotated bibliography](jamesahabyona.github.io/Uganda-1.pdf)
-
+[Child labour in Uganda : An annotated bibliography](/Uganda-1.pdf) joint with Vanessa Cordeiro
 
 
