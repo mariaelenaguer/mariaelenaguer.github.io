@@ -3,7 +3,7 @@ layout: inner
 title: Research
 permalink: /Research/
 ---
-## Work in progress
+## In Progress
  
  Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova School of Business and Economics & Scientific Director Novafrica).
   
