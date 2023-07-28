@@ -93,7 +93,7 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2022 James Ahabyona. Based on the Phantom Jekyll theme by Jami Gibbs'
+footer_text: '© 2023 James Ahabyona. Based on the Phantom Jekyll theme by Jami Gibbs'
 admin_name: 'James Ahabyona'
 google_analytics: "UA-187508562-1" # Update with your own tracking ID
 enable_contact: false
