@@ -1,70 +1,4 @@
-<style>
-.container {
-  color: ##000000; /* Set text color to white */
-  background-color: #6fd9d9; /* Set fresh and cool background color */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-.bio-pic {
-  width: 180px; /* Set the image width to 180 pixels */
-  height: auto;
-}
-
-.hero-content {
-  text-align: center;
-  margin-bottom: 2em;
-}
-
-.hero-buttons {
-  text-align: center;
-  margin-top: 1em;
-}
-
-.hero-buttons a {
-  display: inline-block;
-  margin-right: 1em; /* Add space between icons */
-}
-
-.hero-buttons a:last-child {
-  margin-right: 0; /* Remove margin for the last icon */
-}
-
-.hero-buttons i {
-  font-size: 24px; /* Set icon size to 24 pixels */
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 2em;
-  }
-  
-  .section-jump {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
-  }
-  
-  .recent-work-button {
-    color: #6fd9d9;
-    border: none;
-    padding: 8px 16px;
-    font-size: 24px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .recent-work-button:hover {
-    background-color: #d9f5f5;
-  }
-}
-</style>
-
-<div class="container">
-  <div class="row">
+ <div class="row">
     <div class="col-md-12">
     <div class="col-md-8 text-center">
         <h1>James Ahabyona</h1>
@@ -74,21 +8,20 @@
          I am a final year Master's in Economics student at <a href="https://www.novasbe.unl.pt/en/programs/masters/economics/program" style="color: #007bff; text-decoration: none;">Nova School of Business and Economics</a>. I am interested in Development Economics research, particularly education inequality and exploring ways to improve access to quality education, regardless of background or location. 
     </p>
         </p>
-        <p class="lead text-leftstyle="font-size: 18px; line-height: 1.5; color: #333;">
+        <p class="lead text-left">
            I received my BA. in Development Economics from <a href="https://bams.mak.ac.ug/school-of-economics/" target="_blank"><b>Makerere University</b></a> Kampala,Uganda and  my Diploma in Civil Engineering from Uganda Technical College Bushenyi.
         </p>
         
         <p class="lead text-left ,style="font-size: 18px; line-height: 1.5; color: #333;">
           You can find my CV <a href= "##" style=color: #007bff; text-decoration: none;">here</a>.
         </p>
-
       <p class = "lead text-left , style="font-size: 18px; line-height: 1.5; color: #333;">
         Contact: <a href="mailto:jemo44t@gmail.com" style="color: #007bff; text-decoration: none;">jemo44t@gmail.com</a> or <a href="mailto:52769@novasbe.pt" style="color: #007bff; text-decoration: none;">52769@novasbe.pt</a>
         <hr>
       </div>
       <div class="hero-container">
-        
-         {% if site.title != '' %}
+
+        {% if site.title != '' %}
         <h1>{{site.title}}</h1>
         {% endif %}
 
@@ -96,15 +29,16 @@
 
         <img src="img/JM[1].jpg" class="bio-pic" /><br />
         {% endif %}
-    
-        <img src="img/JM[1].jpg" class="bio-pic" /><br />
-    
-        <div class="hero-content">
-         
-    
-    </p>
 
-        
+
+        <div class="hero-content">
+
+
+    </p>
+    
+        </div>
+        {% if site.github_username != '' or site.twitter_username != '' %}
+        <
 <div class="hero-buttons">
     {% if site.github_username != '' %}
     <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-lg"></i></a>
@@ -116,118 +50,6 @@
 </div>
 {% endif %}
 </div>
-<footer>
-
-   <div class="container">
-    <div class="row">
-
-      <div class="col-md-2"></div>
-      <div class="col-md-8 text-center">
-
-        <h4><strong><i class="fa fa-address-card fa-fw"></i>  Contact information</strong>
-        </h4>
-
-        <p>
-          
-          Penn Development Research Initiative<br>
-          
-          University of Pennsylvania<br>
-          
-          Perelman Center for Political Science<br>
-          
-          133 South 36th Street, Room 430<br>
-          
-          Philadelphia, Pennsylvania 19104-6215<br>
-          
-        </p>
-
-        <ul class="list-unstyled">
-          <li><i class="fa fa-envelope fa-fw"></i> cschmidtpadilla [at] gmail [dot] com
-          </li>
-        </ul>
-
-        <br>
-
-        <ul class="list-inline">
-          <li>
-            <a id="icon" href="https://www.dropbox.com/s/r8nvtd9nx42w8zr/schmidtpadilla_carlos_cv.pdf?raw=1" target="_blank"><i class="fa fa-user fa-fw fa-2x"></i></a>
-          </li>
-          <li>
-            <a id="icon" href="https://github.com/cschmidtpadilla" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
-          </li>
-          <li>
-            <a id="icon" href="https://twitter.com/cschmidtpadilla" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
-          </li>
-          <li>
-            <a id="icon" href="https://www.linkedin.com/in/cschmidtpadilla" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
-          </li>
-        </ul>
-
-        <hr>
-
-        <p class="text-muted">Copyright © Carlos Schmidt-Padilla 2017-2023<br>.</p>
-
-      </div>
-      <div class="col-md-2"></div>
-
-    </div>
-  </div>
-</footer>
-<div class="container">
-    <div class="row">
-
-      <div class="col-md-2"></div>
-      <div class="col-md-8 text-center">
-
-        <h4><strong><i class="fa fa-address-card fa-fw"></i>  Contact information</strong>
-        </h4>
-
-        <p>
-          
-          Penn Development Research Initiative<br>
-          
-          University of Pennsylvania<br>
-          
-          Perelman Center for Political Science<br>
-          
-          133 South 36th Street, Room 430<br>
-          
-          Philadelphia, Pennsylvania 19104-6215<br>
-          
-        </p>
-
-        <ul class="list-unstyled">
-          <li><i class="fa fa-envelope fa-fw"></i> cschmidtpadilla [at] gmail [dot] com
-          </li>
-        </ul>
-
-        <br>
-
-        <ul class="list-inline">
-          <li>
-            <a id="icon" href="https://www.dropbox.com/s/r8nvtd9nx42w8zr/schmidtpadilla_carlos_cv.pdf?raw=1" target="_blank"><i class="fa fa-user fa-fw fa-2x"></i></a>
-          </li>
-          <li>
-            <a id="icon" href="https://github.com/cschmidtpadilla" target="_blank"><i class="fa fa-github fa-fw fa-2x"></i></a>
-          </li>
-          <li>
-            <a id="icon" href="https://twitter.com/cschmidtpadilla" target="_blank"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
-          </li>
-          <li>
-            <a id="icon" href="https://www.linkedin.com/in/cschmidtpadilla" target="_blank"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
-          </li>
-        </ul>
-
-        <hr>
-
-        <p class="text-muted">Copyright © Carlos Schmidt-Padilla 2017-2023<br>.</p>
-
-      </div>
-      <div class="col-md-2"></div>
-
-    </div>
-  </div>
 </div>
 </div>
 </div>
-</div><i 
