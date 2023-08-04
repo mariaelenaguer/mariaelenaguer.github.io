@@ -9,5 +9,5 @@ permalink: /Research/
   
 ### Publications 
 
-"Child labour in Uganda: An annotated bibliography" (joint with Vanessa Cordeiro) 2022 , [Work No Child’s Business (WNCB) ](/Uganda-1.pdf) 
+"Child labour in Uganda: An annotated bibliography" (joint with Vanessa Cordeiro) 2022 , [Work No : Child’s Business (WNCB) ](/Uganda-1.pdf) 
 
