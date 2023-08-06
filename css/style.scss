@@ -13,7 +13,7 @@
 
 --------------------------------------------------------------*/
 
-@import '../_sass/bootstrap';
+// @import '../_sass/bootstrap';
 @import '../_sass/mixins';
 
 $primary: #0a0a0a;
@@ -211,7 +211,7 @@ button.btn, input.btn {
 	3.0 Posts
 --------------------------------------------------------------*/
 #portfolio .container {
-  margin-top: 10em;
+  margin-top: 2em;
   @include bp-xsmall {
     margin-top: 2em;
   }
@@ -284,7 +284,7 @@ button.btn, input.btn {
         left: 0;
         width: 3em;
         height: 3px;
-        background-color: #ECEFF1;
+        // background-color: #ECEFF1;
       }
     }
     .excerpt {
@@ -440,3 +440,13 @@ pre {
     .highlight .vg { color: #000000 } /* Name.Variable.Global */
     .highlight .vi { color: #000000 } /* Name.Variable.Instance */
     .highlight .il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
+
+
+body {
+  background-color: rgb(173, 195, 202);
+}
+
+
+.site-footer {
+  background-color: white;
+}

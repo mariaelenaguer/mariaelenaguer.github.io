@@ -1,6 +1,15 @@
 <style>
-  .container {
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; 
+    /* line-height: 1.5;  */
+    /* height: auto; */
+    color: #333;
+  }
+
+  .container {
     display: flex;
     flex-direction: column;
   }
@@ -60,13 +69,10 @@
   }
 </style>
 
-
-
-<div class="row">
-  <div class="col-md-12">
+<div class="row" style="padding: 10px">
     <div class="col-md-8 text-center">
       <hr>
-      <p class="lead text-left" style=" font-size: 18px; line-height: 1.5; color: #333;">
+      <p class="text-left">
         I am a final year Master's in Economics student at <a
           href="https://www.novasbe.unl.pt/en/programs/masters/economics/program" target="_blank"><b>Nova School of
             Business and Economics</b></a> in Lisbon, Portugal. I am interested in Development Economics research,
@@ -74,20 +80,20 @@
         background or location.
       </p>
       </p>
-      <p class="lead text-left">
+      <p class="text-left">
         I received my BA. in Development Economics from <a href="https://bams.mak.ac.ug/school-of-economics/"
           target="_blank"><b>Makerere University</b></a> Kampala,Uganda and my Diploma in Civil Engineering from Uganda
         Technical College Bushenyi.
       </p>
 
-      <p class="lead text-left" style="font-size: 18px; line-height: 1.5; color: #333;">
+      <p class="text-left">
         You can find my CV <a href="James_Ahabyona_CV.pdf" style="color: #007bff; text-decoration: none;">here</a>.
       </p>
-      <p class="lead text-left" style="font-size: 18px; line-height: 1.5; color: #333;">
+      <p class="text-left">
         Contact: <a href="mailto:jemo44t@gmail.com" style="color: #007bff; text-decoration: none;">jemo44t@gmail.com</a>
         or <a href="mailto:52769@novasbe.pt" style="color: #007bff; text-decoration: none;">52769@novasbe.pt</a>
     </div>
-    <div class="hero-container text-center">
+    <div class="hero-container text-center col">
       <img src="img/James.jpg" class="bio-pic" /><br />
       {% if site.github_username != '' or site.twitter_username != '' %}
         <div class="hero-buttons">
@@ -110,5 +116,4 @@
     </h2>
   </div> -->
   </div>
-</div>
 </div>
