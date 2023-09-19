@@ -10,4 +10,4 @@ I am interested in Development Economics research. In my master's thesis, I stud
 ### Fields of interest
 Main: Development economics, Economics of Education 
 
-Secondary: Political Economy
+Secondary: Political Economy ,Environmental Economics 
