@@ -8,7 +8,7 @@ permalink: /about/
 I am a Ph.D. student at UCLA's economics department. Prior to joining UCLA, I was a Pre-Doctoral Research Fellow at [Yale’s Tobin Center for Economic Policy](https://tobin.yale.edu/), where I worked with professors [Christopher Neilson](https://christopherneilson.github.io/) and [John Eric Humphries](http://johnerichumphries.com/)
 on topics related to school choice and the market for childcare services in CT. Before that, I worked at [IPA](http://www.poverty-action.org/study/information-about-returns-post-primary-education-peru) in Peru, and at [J-PAL LAC](https://www.povertyactionlab.org/latin-america-caribbean) in the Dominican Republic, studying basic and higher education markets in the context of developing economies. I received my B.A. in Economics from the _Pontificia Universidad Catolica del Peru_ in 2018.
 
-You can find my CV [here](https://www.dropbox.com/scl/fi/oswuf9w6yltejh57kdrbq/CV_meg_2023.pdf?raw=1). 
+You can find my CV [here](https://www.dropbox.com/scl/fi/oswuf9w6yltejh57kdrbq/CV_meg_2023.pdf?rlkey=4ab5yh4s2b2l3xbma25m9vkmg&dl=0). 
 
 Contact me at mguerreroa  `at` ucla `dot` edu
 
