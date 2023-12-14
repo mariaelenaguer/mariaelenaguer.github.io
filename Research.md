@@ -5,7 +5,7 @@ permalink: /Research/
 ---
 ### Working Papers 
  
- Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova School of Business and Economics). <b>Draft soon</b>
+ Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova School of Business and Economics). <b>Draft available upon request</b>
   
 ### Publications 
 
