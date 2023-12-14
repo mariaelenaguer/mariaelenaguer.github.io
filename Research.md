@@ -3,7 +3,8 @@ layout: inner
 title: Research
 permalink: /Research/
 ---
-### Working Papers 
+### Working Papers
+
  "Can Games measure mobile money adoption? Evidence from Mozambique"
  Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova School of Business and Economics. <b>Draft available upon request</b>
   
