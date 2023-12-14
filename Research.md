@@ -5,9 +5,8 @@ permalink: /Research/
 ---
 ### Working Papers
 
- "Can Games measure mobile money adoption? Evidence from Mozambique"
- 
- Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova SBE). <b>Draft available upon request</b>
+ "Can Games measure mobile money adoption? Evidence from Mozambique" 
+    _ Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova SBE). <b>Draft available upon request</b>_
   
 ### Publications 
 
