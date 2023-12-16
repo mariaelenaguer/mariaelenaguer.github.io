@@ -3,7 +3,7 @@ layout: inner
 position: right
 title: 'Can Games measure mobile money adoption? Evidence from Mozambique'
 date: 2016-02-20 21:15:00
-categories: development design
+categories: Technology Adoption
 tags: Education Development Chile Peru DominicanRepublic
 featured_image: '/img/posts/istockphoto-1551382168-1024x1024.jpg'
 project_link: 'https://mariaelenaguer.github.io/'
