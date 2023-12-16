@@ -1,7 +1,7 @@
 ---
 layout: inner
 position: right
-title: 'Can Games measure mobile money adoption? Evidence from Mozambique'
+title: 'Can games measure mobile money adoption? Evidence from Mozambique'
 date: 2023-12-20 15:56:00
 categories: Technology Adoption
 tags: Mobile Money, Technology Adoption, Behavioral Games ,Measurements, Mozambique
