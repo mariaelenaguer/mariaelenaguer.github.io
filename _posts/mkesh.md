@@ -1,6 +1,6 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'Can games measure mobile money adoption? Evidence from Mozambique'
 date: 2023-12-20 15:56:00
 categories: Technology Adoption
