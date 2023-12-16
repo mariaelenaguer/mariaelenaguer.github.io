@@ -9,5 +9,5 @@ featured_image: '/img/posts/istockphoto-1551382168-1024x1024.jpg'
 project_link: 'https://mariaelenaguer.github.io/'
 button_icon: 'flask'
 button_text: 'Draft available on request'
-lead_text: "A multicountry project to study basic education markets in developing countries"
+lead_text:  I combine tools from behavioral economics and mobile money transaction data to test a novel method for measuring mobile money adoption."
 ---
