@@ -5,7 +5,7 @@ title: 'Schooling Markets in LAC'
 date: 2016-02-20 21:15:00
 categories: development design
 tags: Education Development Chile Peru DominicanRepublic
-featured_image: '/img/posts/01_schoolingmarkets.png'
+featured_image: '/img/posts/istockphoto-1551382168-1024x1024.jpg'
 project_link: 'https://mariaelenaguer.github.io/'
 button_icon: 'flask'
 button_text: 'Visit Project'
