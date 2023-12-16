@@ -1,7 +1,7 @@
 ---
 layout: inner
 position: right
-title: 'Schooling Markets in LAC'
+title: 'Can Games measure mobile money adoption? Evidence from Mozambique'
 date: 2016-02-20 21:15:00
 categories: development design
 tags: Education Development Chile Peru DominicanRepublic
