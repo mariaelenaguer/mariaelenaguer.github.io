@@ -17,9 +17,9 @@ title: "James Ahabyona"
 email: 'jemo44t@gmail.com'
 description: "#"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "##" # the base hostname & protocol for your site, e.g. https:https://jamesahabyona.github.io/
+url: "https:https://jamesahabyona.github.io/" # the base hostname & protocol for your site, e.g. https:https://jamesahabyona.github.io/
 twitter_username: 'a_ha256'
-github_username: 'jamesahabyona1'
+github_username: 'jamesahabyona'
 linkedin_username: 'in/james-ahabyona-236b81129/'
 
 # Build settings
