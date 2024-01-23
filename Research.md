@@ -20,7 +20,6 @@ permalink: /Research/
  money strongly predicts  adoption in the second and third years after mobile money was introduced <br>
  ,willingness to save in the mobile money game is a strong predictor of future mobile money cash-in <br>  
  and any mobile money transaction in the first,second, and third years.</pre>
-
 ---
 
 
