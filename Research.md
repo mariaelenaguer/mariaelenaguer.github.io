@@ -7,13 +7,7 @@ permalink: /Research/
 ### Publications 
 
 "Child labour in Uganda: An annotated bibliography" _(joint with Vanessa Cordeiro) 2022 , [Work No : Child’s Business (WNCB) ](/Uganda-1.pdf)_ 
-<Details>
- ```markdown
-<pre> We provide a comprehensive overview of child labour in Uganda, offering insights into its causes, consequences, and
-potential solutions. We use sources such as research articles , reports, and policy documents , making it a valuable
-resource for researchers, policy makers and civil society organizations interested in understanding and addressing this
-critical problem</pre>
- <Details>
+
   
 ### Working Papers
 
