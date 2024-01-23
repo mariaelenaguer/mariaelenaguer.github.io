@@ -14,7 +14,7 @@ permalink: /Research/
  <details>
 <details>
 <summary>Abstract</summary>
-<pre>$ Forecasting the adoption of technological innovations is difficult but potentially impactful, <br> 
+<pre> Forecasting the adoption of technological innovations is difficult but potentially impactful, <br> 
  particularly in rural lowincome communities worldwide. This paper tests a novel method to measure <br>
  mobile money adoption by employing behavioral measures to elicit preferences for saving or remitting <br>
  using mobile money. I link these game decisions to individual-level mobile money administrative <br>
