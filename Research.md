@@ -14,12 +14,14 @@ permalink: /Research/
  <details>
 <details>
 <summary>Abstract</summary>
-<pre>$ Forecasting the adoption of technological innovations is difficult but potentially impactful, particularly in rural lowincome communities worldwide. This paper tests a novel method to measure mobile money adoption by employing
-behavioral measures to elicit preferences for saving or remitting using mobile money. I link these game decisions
-to individual-level mobile money administrative transaction data; my findings show that while willingness to remit
-through mobile money strongly predicts adoption in the second and third years after mobile money was introduced,
-willingness to save in the mobile money game is a strong predictor of future mobile money cash-in and any mobile
-money transaction in the first, second, and third years.</pre>
+<pre>$ Forecasting the adoption of technological innovations is difficult but potentially impactful, <br> 
+ particularly in rural lowincome communities worldwide. This paper tests a novel method to measure <br>
+ mobile money adoption by employing behavioral measures to elicit preferences for saving or remitting <br>
+ using mobile money. I link these game decisions to individual-level mobile money administrative <br>
+ transaction data; my findings show that while willingness to remit through mobile money strongly predicts <br> 
+ adoption in the second and third years after mobile money was introduced,willingness to save in the mobile <br>
+ money game is a strong predictor of future mobile money cash-in and any mobile money transaction in the first,<br> 
+ second, and third years.</pre>
 </details>
 
 
