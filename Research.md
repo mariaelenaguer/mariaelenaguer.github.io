@@ -5,11 +5,11 @@ permalink: /Research/
 ---
 
 ### Publications 
-
+---
 "Child labour in Uganda: An annotated bibliography" _(joint with Vanessa Cordeiro) 2022 , [Work No : Child’s Business (WNCB) ](/Uganda-1.pdf)_ 
-
+---
 ### Working Papers
-
+---
  "Can Games measure mobile money adoption? Evidence from Mozambique" , _Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova SBE). <b>Draft available on request</b>_
  <Details>
 <pre> Forecasting the adoption of technological innovations is difficult but potentially impactful, <br> 
@@ -21,6 +21,6 @@ permalink: /Research/
  ,willingness to save in the mobile money game is a strong predictor of future mobile money cash-in <br>  
  and any mobile money transaction in the first,second, and third years.</pre>
 
-
+---
 
 
