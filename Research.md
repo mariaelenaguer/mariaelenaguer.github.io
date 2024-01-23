@@ -11,6 +11,15 @@ permalink: /Research/
 ### Working Papers
 
  "Can Games measure mobile money adoption? Evidence from Mozambique" , _Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova SBE). <b>Draft available on request</b>_
-  
+ <details>
+<details>
+<summary>Abstract</summary>
+<pre>$ Forecasting the adoption of technological innovations is difficult but potentially impactful, particularly in rural lowincome communities worldwide. This paper tests a novel method to measure mobile money adoption by employing
+behavioral measures to elicit preferences for saving or remitting using mobile money. I link these game decisions
+to individual-level mobile money administrative transaction data; my findings show that while willingness to remit
+through mobile money strongly predicts adoption in the second and third years after mobile money was introduced,
+willingness to save in the mobile money game is a strong predictor of future mobile money cash-in and any mobile
+money transaction in the first, second, and third years.</pre>
+</details>
 
 
