@@ -12,7 +12,8 @@ permalink: /Research/
 potential solutions. We use sources such as research articles , reports, and policy documents , making it a valuable
 resource for researchers, policy makers and civil society organizations interested in understanding and addressing this
 critical problem</pre>
-
+ <Details>
+  
 ### Working Papers
 
  "Can Games measure mobile money adoption? Evidence from Mozambique" , _Master’s thesis supervised by:  [Professor Catia Batista](https://www.catiabatista.org/) (Nova SBE). <b>Draft available on request</b>_
@@ -25,6 +26,7 @@ critical problem</pre>
  adoption in the second and third years after mobile money was introduced,willingness to save in the mobile <br>
  money game is a strong predictor of future mobile money cash-in and any mobile money transaction in the first,<br> 
  second, and third years.</pre>
+  <Details>
 
 
 
