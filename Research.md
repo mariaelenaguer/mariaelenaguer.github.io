@@ -22,7 +22,7 @@ permalink: /Research/
  and any mobile money transaction in the first,second, and third years.</pre>
 
 Population changes in Uganda between 1990 and 2020
- ![alt text](https://github.com/Jamesahabyona/population_change_Uganda/blob/main/Uganda-population-change.png?raw=true)
+ ![alt text](https://github.com/Jamesahabyona/jamesahabyona.github.io/blob/master/Uganda-population-change.png?raw=true)
 
 
 
