@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: Research
-permalink: /Research/
+permalink: /Research1/
 ---
 
 ### Publications 
