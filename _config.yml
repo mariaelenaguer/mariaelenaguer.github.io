@@ -13,7 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Maria Elena Guerrero"
+title: "Maria Elena Guerrero Amezaga"
+# Homepage-only version of the title; allows HTML (e.g. <br />) for line breaks.
+# Falls back to `title` above if left blank.
+hero_title_html: 'Maria Elena<br />Guerrero Amezaga'
 email: 'mguerreroa@pucp.pe'
 description: "I am a PhD student in Economics at UCLA"
 baseurl: "" # the subpath of your site, e.g. /blog

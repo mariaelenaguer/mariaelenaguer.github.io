@@ -11,7 +11,7 @@
           {% if site.title != '' %}
           <h1 class="text-center">
             <img src="img/headshot-2024.jpg" class="bio-pic" /><br />
-            {{site.title}}
+            {% if site.hero_title_html and site.hero_title_html != '' %}{{ site.hero_title_html }}{% else %}{{ site.title }}{% endif %}
           </h1>
           {% endif %}
 
@@ -30,6 +30,7 @@
 
           <div class="hero-buttons">
 
+            <a href="{{ site.baseurl }}/CV_meg_2026.pdf"><button class="btn btn-default btn-lg"><i class="fa fa-file-text-o fa-lg"></i>CV</button></a>
             {% if site.twitter_username != '' %}
               <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
             {% endif %}
