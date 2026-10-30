@@ -1,0 +1,20 @@
+# References listed on the About page, in this order.
+#
+# Fields (leave any of them out to hide it):
+#   name         full name
+#   role         highlighted label, e.g. Chair
+#   institution  university
+#   email        shown as a clickable link
+
+- name: Natalie Bau
+  role: Chair
+  institution: University of California, Los Angeles
+  email: nbau@g.ucla.edu
+
+- name: John Asker
+  institution: University of California, Los Angeles
+  email: johnasker@econ.ucla.edu
+
+- name: Juliana Londoño-Vélez
+  institution: University of California, Los Angeles
+  email: j.londonovelez@econ.ucla.edu

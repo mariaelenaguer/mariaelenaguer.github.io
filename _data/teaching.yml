@@ -1,0 +1,26 @@
+# Courses listed on the Teaching page.
+#
+# Fields (leave any of them out to hide it):
+#   code    course number, e.g. Econ 1
+#   name    course title
+#   term    e.g. Summer 2025
+#   times   number of quarters taught (shown when there is no `term`)
+#   award   highlighted label, e.g. Teaching Assistant Award, 2025
+#   links   e.g. [{ label: Syllabus, url: /syllabus.pdf }]
+
+instructor:
+  - code: Econ 1
+    name: Principles of Microeconomics
+    term: Summer 2025
+
+teaching_assistant:
+  - code: Econ 1
+    name: Principles of Microeconomics
+    times: 5
+  - code: Econ 11
+    name: Microeconomic Theory 1
+    times: 4
+    award: Teaching Assistant Award, 2025
+  - code: Econ 101
+    name: Microeconomic Theory 2
+    times: 2

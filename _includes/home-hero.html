@@ -1,56 +1,70 @@
 <div class="container">
 
-  <div class="row">
+  <div class="hero-container">
 
-    <div class="col-md-12">
+    <div class="hero-profile">
 
-      <div class="hero-container">
+      <img src="{{ site.baseurl }}/img/headshot-2026.jpg" class="bio-pic" alt="{{ site.title }}" />
 
-        <div class="hero-content">
+      {% if site.title != '' %}
+      <h1>
+        {% if site.hero_title_html and site.hero_title_html != '' %}{{ site.hero_title_html }}{% else %}{{ site.title }}{% endif %}
+      </h1>
+      {% endif %}
 
-          {% if site.title != '' %}
-          <h1 class="text-center">
-            <img src="img/headshot-2024.jpg" class="bio-pic" /><br />
-            {% if site.hero_title_html and site.hero_title_html != '' %}{{ site.hero_title_html }}{% else %}{{ site.title }}{% endif %}
-          </h1>
-          {% endif %}
+      {% if site.description != '' or site.enable_contact == true %}
+      <p class="hero-description">
+        {% if site.description != '' %}
+        {{site.description}}
+        {% endif %}
+        {% if site.job_market and site.job_market != '' %}
+        <strong class="hero-job-market">{{ site.job_market }}</strong>
+        {% endif %}
+        {% if site.fields and site.fields != '' %}
+        <span class="hero-fields">Fields: {{ site.fields }}</span>
+        {% endif %}
 
-          {% if site.description != '' or site.enable_contact == true %}
-          <p class="text-center">
-            {% if site.description != '' %}
-            {{site.description}}
-            {% endif %}
+        {% if site.enable_contact == true %}
+        {% include contact.html %}
+        {% include contact-modal.html %}
+        {% endif %}
+      </p>
+      {% endif %}
 
-            {% if site.enable_contact == true %}
-            {% include contact.html %}
-            {% include contact-modal.html %}
-            {% endif %}
-          </p>
-          {% endif %}
+      <div class="hero-buttons">
 
-          <div class="hero-buttons">
-
-            <a href="{{ site.baseurl }}/CV_meg_2026.pdf"><button class="btn btn-default btn-lg"><i class="fa fa-file-text-o fa-lg"></i>CV</button></a>
-            {% if site.twitter_username != '' %}
-              <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
-            {% endif %}
-            {% if site.linkedin_username != '' %}
-              <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
-            {% endif %}
-            {% if site.medium_username != '' %}
-              <a href="https://{{ site.medium_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-medium fa-lg"></i>Medium</button></a>
-            {% endif %}
-
-          </div>
-
-        </div>
+        <a href="{{ site.baseurl }}/CV_meg_2026.pdf"><button class="btn btn-default btn-lg"><i class="fa fa-file-text-o fa-lg"></i>CV</button></a>
+        {% if site.twitter_username != '' %}
+          <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+        {% endif %}
+        {% if site.linkedin_username != '' %}
+          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
+        {% endif %}
+        {% if site.medium_username != '' %}
+          <a href="https://{{ site.medium_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-medium fa-lg"></i>Medium</button></a>
+        {% endif %}
 
       </div>
 
-      <a class="section-jump text-center" href="#portfolio">
-        <i class="fa fa-angle-down fa-3x"></i>
-      </a>
+    </div>
 
+    <div class="hero-papers">
+      {% for group in site.data.papers %}
+        {% assign featured = group.papers | where: "homepage", true %}
+        {% if featured.size > 0 %}
+        <section class="paper-section">
+          <h2 class="paper-section-title">{{ group.section }}</h2>
+          {% for paper in featured %}
+            {% include paper.html paper=paper %}
+          {% endfor %}
+        </section>
+        {% endif %}
+      {% endfor %}
+      <nav class="hero-nav">
+        <a href="{{ site.baseurl }}/research/">Research <i class="fa fa-angle-right"></i></a>
+        <a href="{{ site.baseurl }}/teaching/">Teaching <i class="fa fa-angle-right"></i></a>
+        <a href="{{ site.baseurl }}/about/">About me <i class="fa fa-angle-right"></i></a>
+      </nav>
     </div>
 
   </div>

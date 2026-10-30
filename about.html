@@ -1,0 +1,57 @@
+---
+layout: subpage
+title: About
+permalink: /about/
+---
+
+{% capture bio %}
+I am a Ph.D. candidate at UCLA's economics department. My research is in the economics of education and industrial organization, with a focus on developing countries. I have ongoing work in Colombia, Peru, and Uganda.
+
+Prior to joining UCLA, I was a Pre-Doctoral Research Fellow at [Yale’s Tobin Center for Economic Policy](https://tobin.yale.edu/). Before that, I worked at [IPA](http://www.poverty-action.org/study/information-about-returns-post-primary-education-peru) in Peru, and at [J-PAL LAC](https://www.povertyactionlab.org/latin-america-caribbean) in the Dominican Republic. I received my B.A. in Economics from the _Pontificia Universidad Catolica del Peru_ in 2018.
+{% endcapture %}
+
+<div class="about">
+
+  <aside class="about-card">
+    <img src="{{ site.baseurl }}/img/headshot-2026.jpg" class="about-pic" alt="{{ site.title }}" />
+    <ul class="about-contact">
+      <li><i class="fa fa-envelope-o"></i>mguerreroa <span>at</span> ucla <span>dot</span> edu</li>
+      <li><i class="fa fa-file-text-o"></i><a href="{{ site.baseurl }}/CV_meg_2026.pdf">Curriculum Vitae</a></li>
+      {% if site.linkedin_username != '' %}
+      <li><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">LinkedIn</a></li>
+      {% endif %}
+      {% if site.twitter_username != '' %}
+      <li><i class="fa fa-twitter"></i><a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+      {% endif %}
+    </ul>
+  </aside>
+
+  <div class="about-bio">
+    {{ bio | markdownify }}
+  </div>
+
+</div>
+
+{% comment %} References are listed in _data/references.yml {% endcomment %}
+{% if site.data.references %}
+<section class="paper-section about-references">
+  <h2 class="paper-section-title">References</h2>
+  <div class="card-grid">
+    {% for reference in site.data.references %}
+    <div class="reference">
+      <h3 class="reference-name">{{ reference.name }}</h3>
+      {% if reference.role %}
+      <span class="reference-role">{{ reference.role }}</span>
+      {% endif %}
+      {% if reference.institution %}
+      {% assign institution_parts = reference.institution | split: ', ' %}
+      <p class="reference-institution">{% for part in institution_parts %}<span>{{ part }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+      {% endif %}
+      {% if reference.email %}
+      <p class="reference-email"><i class="fa fa-envelope-o"></i><a href="mailto:{{ reference.email }}">{{ reference.email | replace: '@', '<wbr>@' }}</a></p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

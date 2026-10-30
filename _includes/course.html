@@ -1,0 +1,25 @@
+{% assign course = include.course %}
+<div class="course{% if include.featured %} course-featured{% endif %}">
+  <p class="course-code">{{ course.code }}</p>
+  <h3 class="course-name">{{ course.name }}</h3>
+
+  <p class="course-meta">
+    {% if course.term %}
+      {{ course.term }}
+    {% elsif course.times %}
+      {{ course.times }} {% if course.times == 1 %}quarter{% else %}quarters{% endif %}
+    {% endif %}
+  </p>
+
+  {% if course.award %}
+  <p class="course-award"><i class="fa fa-star"></i>{{ course.award }}</p>
+  {% endif %}
+
+  {% if course.links %}
+  <div class="paper-links">
+    {% for link in course.links %}
+    <a href="{{ link.url }}">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>

@@ -8,6 +8,10 @@
 1.0 Defaults
 2.0 Home Hero
   2.1 Contact
+  2.2 Papers
+  2.3 Subpages (Research, Teaching, About)
+  2.4 Teaching
+  2.5 About
 3.0 Posts
 4.0 Footer
 
@@ -18,6 +22,11 @@
 
 $primary: #0a0a0a;
 $secondary: #FF7B7B;
+$link-hover: #FF5B33;
+$accent: #337ab7;
+$muted: #6b7f8e;
+$faint: #9eb1bd;
+$hairline: #e3eaef;
 
 %opensans { font-family: 'Open Sans', sans-serif; }
 %merriweather { font-family: 'Merriweather', serif; }
@@ -112,45 +121,108 @@ button.btn, input.btn {
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .bio-pic {
-  width: 300px;
+  width: 240px;
   border-radius: 50%;
   margin-bottom: 30px;
 }
 .hero-container {
-  margin: 10em 0 9em 0;
-  @include bp-xsmall {
-    margin: 5em 0 5em 0;
+  display: flex;
+  align-items: flex-start;
+  margin: 7em 0 6em 0;
+  padding: 0 3em;
+  @include bp-medium {
+    padding: 0 1em;
   }
   @include bp-small {
+    flex-direction: column;
     margin: 5em 0 5em 0;
+    padding: 0 2em;
+  }
+  @include bp-xsmall {
+    flex-direction: column;
+    margin: 6em 0 4em 0;
+    padding: 0;
   }
 }
 
-.hero-content {
-  width: 60%;
-  margin: 0 auto;
-  display: table;
-  @include bp-medium {
+.hero-profile {
+  flex: 0 0 40%;
+  padding-right: 3em;
+  text-align: center;
+  @include bp-small {
+    flex: none;
     width: 100%;
+    padding-right: 0;
   }
+  @include bp-xsmall {
+    flex: none;
+    width: 100%;
+    padding-right: 0;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1.25;
+    margin: 0;
+    @include bp-xsmall {
+      font-size: 32px;
+    }
+  }
+  .hero-description {
+    margin: 1.2em 0 1em 0;
+    text-wrap: balance;
+  }
+  .hero-job-market, .hero-fields {
+    display: block;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .hero-job-market {
+    margin-top: 0.6em;
+  }
+  button.btn {
+    display: inline-block;
+    padding: 9px 20px;
+    margin: 0.4em 0.2em;
+    font-size: 15px;
+    @include bp-xsmall {
+      padding: 8px 14px;
+    }
+  }
+}
+
+.hero-papers {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-left: 3.5em;
+  border-left: 1px solid $hairline;
   @include bp-small {
     width: 100%;
+    margin-top: 3.5em;
+    padding-left: 0;
+    border-left: none;
   }
   @include bp-xsmall {
     width: 100%;
+    margin-top: 3em;
+    padding-left: 0;
+    border-left: none;
   }
-  h1 {
-    font-size: 48px;
-  }
-  p {
-    margin: 2em 0 2em 0;
-  }
-  .hero-buttons {
-    margin: 0 auto;
-    display: table;
-    i {
-      padding-right: 0.5em;
+}
+
+.hero-nav {
+  margin-top: 0.5em;
+  font-size: 14px;
+  font-weight: 600;
+  a {
+    display: inline-block;
+    margin-right: 2em;
+    color: $muted;
+    &:hover {
+      color: $link-hover;
     }
+  }
+  i {
+    margin-left: 0.3em;
   }
 }
 
@@ -204,6 +276,343 @@ button.btn, input.btn {
   }
   :-ms-input-placeholder {
     color: #D6D6D6;
+  }
+}
+
+/*--------------------------------------------------------------
+	2.2 Papers
+--------------------------------------------------------------*/
+.paper-section {
+  margin-bottom: 2.5em;
+}
+
+.paper-section-title {
+  @extend %opensans;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $faint;
+  margin: 0 0 1.3em 0;
+  padding-bottom: 0.7em;
+  border-bottom: 1px solid $hairline;
+}
+
+article.paper {
+  margin: 0 0 1.7em 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.paper p {
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.paper-title {
+  font-size: 17px;
+  line-height: 1.45;
+  margin: 0 0 0.3em 0;
+  a {
+    color: inherit;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+
+.paper-coauthors {
+  color: $muted;
+  a {
+    color: inherit;
+    border-bottom: 1px solid #c9d6df;
+    &:hover {
+      color: $link-hover;
+      border-bottom-color: $link-hover;
+    }
+  }
+}
+
+p.paper-note {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 2px 9px;
+  border-radius: 3px;
+  background-color: #eaf1f8;
+  color: #2a5f8f;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+p.paper-meta {
+  margin-top: 0.3em;
+  color: $muted;
+  font-size: 14px;
+}
+
+.paper-links {
+  margin-top: 0.5em;
+  font-size: 14px;
+  font-weight: 600;
+  > * + * {
+    margin-left: 1.2em;
+  }
+  a {
+    color: $accent;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+
+.abstract-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: $accent;
+  @include transition(color .2s ease-in-out);
+  &:hover {
+    color: $link-hover;
+  }
+  &[aria-expanded="true"] {
+    color: $muted;
+  }
+}
+
+// Animates open by growing the grid row from 0fr to 1fr.
+.paper-abstract {
+  display: grid;
+  grid-template-rows: 0fr;
+  @include transition(grid-template-rows .3s ease);
+  &.is-open {
+    grid-template-rows: 1fr;
+  }
+}
+
+.paper-abstract-inner {
+  overflow: hidden;
+  visibility: hidden;
+  @include transition(visibility .3s);
+  .is-open > & {
+    visibility: visible;
+  }
+  p {
+    margin-top: 0.9em;
+    padding-left: 1.1em;
+    border-left: 2px solid $hairline;
+    color: #55666f;
+    font-size: 14.5px;
+    line-height: 1.7;
+  }
+}
+
+/*--------------------------------------------------------------
+	2.3 Subpages (Research, Teaching, About)
+--------------------------------------------------------------*/
+article.subpage {
+  margin: 7em 0 5em 0;
+  @include bp-xsmall {
+    margin: 6em 0 3em 0;
+  }
+}
+
+.subpage-header {
+  margin-bottom: 3em;
+}
+
+.subpage-title {
+  position: relative;
+  font-size: 40px;
+  margin: 0;
+  padding-bottom: 0.5em;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 48px;
+    height: 3px;
+    background-color: #d5e0e7;
+  }
+}
+
+p.subpage-subtitle {
+  margin: 1em 0 0 0;
+  color: $muted;
+  font-size: 16px;
+}
+
+/*--------------------------------------------------------------
+	2.4 Teaching
+--------------------------------------------------------------*/
+.course, .reference {
+  border: 1px solid $hairline;
+  border-radius: 6px;
+  padding: 1.3em 1.5em;
+  p {
+    margin: 0;
+  }
+}
+
+.course-featured {
+  border-left: 3px solid $accent;
+  background-color: #f7fafc;
+  .course-name {
+    font-size: 22px;
+  }
+}
+
+p.course-code {
+  margin-bottom: 0.4em;
+  color: $accent;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.course-name {
+  font-size: 18px;
+  line-height: 1.35;
+  margin: 0 0 0.4em 0;
+}
+
+p.course-meta {
+  color: $muted;
+  font-size: 14px;
+}
+
+p.course-award {
+  display: inline-block;
+  margin-top: 0.9em;
+  padding: 3px 10px;
+  border-radius: 3px;
+  background-color: #fdf3dc;
+  color: #8a5a00;
+  font-size: 12.5px;
+  font-weight: 600;
+  i {
+    margin-right: 0.4em;
+    color: #e0a526;
+  }
+}
+
+// Row of equal-height cards that wraps on narrow screens (Teaching, References).
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.6em;
+  > * {
+    flex: 1 1 200px;
+    margin: 0 0.6em 1.2em 0.6em;
+  }
+}
+
+/*--------------------------------------------------------------
+	2.5 About
+--------------------------------------------------------------*/
+.about {
+  display: flex;
+  align-items: flex-start;
+  @include bp-xsmall {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.about-card {
+  flex: 0 0 225px;
+  margin-right: 3.5em;
+  @include bp-xsmall {
+    flex: none;
+    margin: 0 0 2.5em 0;
+  }
+}
+
+img.about-pic {
+  width: 180px;
+  border-radius: 50%;
+  margin-bottom: 1.6em;
+}
+
+.about-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  li {
+    margin-bottom: 0.7em;
+    color: $muted;
+  }
+  i {
+    width: 1.6em;
+    color: $faint;
+  }
+  span {
+    color: $faint;
+  }
+}
+
+.about-bio {
+  flex: 1 1 auto;
+  min-width: 0;
+  p {
+    font-size: 17px;
+    margin-bottom: 1.2em;
+  }
+}
+
+.about-references {
+  margin-top: 3em;
+}
+
+.reference-name {
+  font-size: 17px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.reference-role {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 2px 9px;
+  border-radius: 3px;
+  background-color: #eaf1f8;
+  color: #2a5f8f;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.reference .reference-institution, .reference .reference-email {
+  margin-top: 0.6em;
+  color: $muted;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+// Wrap only between comma-separated parts, e.g. "University of California, / Los Angeles".
+.reference-institution span {
+  white-space: nowrap;
+}
+
+.reference .reference-email {
+  margin-top: 0.3em;
+  i {
+    width: 1.5em;
+    color: $faint;
+  }
+  a {
+    color: $accent;
+    &:hover {
+      color: $link-hover;
+    }
   }
 }
 

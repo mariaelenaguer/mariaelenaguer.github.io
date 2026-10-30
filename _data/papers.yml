@@ -1,0 +1,88 @@
+# Papers listed on the Research page, grouped by section (in this order).
+# Papers with `homepage: true` also appear next to the photo on the homepage.
+#
+# Fields (leave any of them out to hide it):
+#   id         short unique name, no spaces (used for the abstract button)
+#   title      paper title
+#   url        link for the title (and for the "Paper" link)
+#   coauthors  shown as "with ..."; link a name with [Name](https://their-site)
+#   note       highlighted label, e.g. Job Market Paper
+#   journal    shown in italics, followed by `citation`
+#   status     small grey line, e.g. Draft coming soon
+#   abstract   Markdown; *text* is italic. No abstract = no Abstract button
+#   links      extra links, e.g. [{ label: Slides, url: /slides.pdf }]
+
+- section: Working Papers
+  papers:
+    - id: colombia-aid
+      title: "The Supply Side Effects of Targeted Financial Aid: Evidence from Colombia"
+      coauthors: Esteban Álvarez-Arango and Federico Llarena
+      note: Job Market Paper
+      status: Draft coming soon
+      homepage: true
+      # Abstract hidden for now. To show it again, select these lines and press Cmd+/ to uncomment.
+      # abstract: >-
+      #   Financial aid programs for higher education often restrict where recipients
+      #   can use the aid. Governments usually implement these restrictions to induce
+      #   sorting into programs with higher expected returns (i.e. for demand reasons),
+      #   but they also have implications for supply-side responses. Using an
+      #   equilibrium model of competition in higher education, we study how the
+      #   decision to restrict where aid can be redeemed shapes colleges' price and
+      #   quality responses in the context of Colombia's *Ser Pilo Paga* (SPP), a
+      #   forgivable loan program that covered the full tuition of high-scoring,
+      #   low-income students, but only at 12% of colleges with a “high quality”
+      #   certification (HQA colleges). The aid makes recipients less responsive to
+      #   price, and the institutional restriction makes them concentrate in a few
+      #   programs, which compete for them on quality (measured as earnings value
+      #   added). SPP raises the quality received by aid-eligible students by 95% and
+      #   the sticker price they choose by 65%. Supply responses account for 52% and
+      #   43% of these increases, respectively. Under a counterfactual policy where the
+      #   same aid could be used at any private program, the quality response of HQA
+      #   colleges would be about half as large and their tuition response about a
+      #   third as large compared to under SPP. Aid-eligible students would attend
+      #   programs of 30% lower quality and 17% lower price relative to SPP. Because
+      #   of supply-side responses, SPP raises the quality and tuition faced by
+      #   non-eligible students as well: by 7% and 8%, respectively. In aggregate, the
+      #   gain in an entering cohort's earnings (including aid-eligible and
+      #   non-eligible students) is about 45% larger under SPP as implemented than
+      #   under a policy where the aid can be used at any private program, while the
+      #   increase in tuition spending is only 18% larger.
+
+- section: Publications
+  papers:
+    - id: small-firms
+      title: "Small Firms and the Pandemic: Evidence from Latin America"
+      url: https://www.sciencedirect.com/science/article/abs/pii/S0304387821001358
+      coauthors: "[J.E. Humphries](https://johnerichumphries.com/), [C.A. Neilson](https://www.christopher-neilson.com/research/), [N. Shimberg](https://naomishimberg.github.io/) and [G. Ulyssea](https://sites.google.com/view/gabriel-ulyssea)"
+      journal: Journal of Development Economics
+      citation: 155 (2022), 102775
+      homepage: true
+      abstract: >-
+        This paper studies the effects of the COVID-19 pandemic on small businesses
+        between March and November 2020 using new survey data on 35,000 small
+        businesses in eight Latin American countries. We document that the pandemic
+        had large negative impacts on employment and beliefs regarding the future,
+        which in turn predict meaningful economic outcomes in the medium-term.
+        Despite the unprecedented amount of aid, policies had limited impact for
+        small and informal firms. These firms were less aware of programs, applied
+        less, and received less assistance. This may have lasting consequences, as
+        businesses that received aid reported better outcomes and expectations about
+        the future.
+
+- section: Work in Progress
+  papers:
+    - id: licensing
+      title: Regulating Quality in Higher Education through Inputs-based Licensing
+      coauthors: Federico Llarena
+      homepage: true
+    - id: uganda-markups
+      title: "Dispersion and Evolution of Markups in Uganda: Evidence from 10 Years of Administrative Tax Data"
+      coauthors: "[David J. Henning](https://djhenning.github.io/)"
+      homepage: true
+
+- section: Pre-doctoral Work
+  papers:
+    - id: fiscal-windfalls
+      title: "The Effects of Fiscal Windfalls on Corruption and Selection into Politics: Evidence from the Peruvian Commodity Boom (2003–2014)"
+      url: https://tesis.pucp.edu.pe/repositorio/handle/20.500.12404/14818
+      status: Pontificia Universidad Católica del Perú, 2018. Awarded the Best Thesis in Economics prize.

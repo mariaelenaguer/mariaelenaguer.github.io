@@ -1,0 +1,15 @@
+---
+layout: subpage
+title: Research
+permalink: /research/
+---
+
+{% comment %} Papers are listed in _data/papers.yml {% endcomment %}
+{% for group in site.data.papers %}
+<section class="paper-section">
+  <h2 class="paper-section-title">{{ group.section }}</h2>
+  {% for paper in group.papers %}
+    {% include paper.html paper=paper %}
+  {% endfor %}
+</section>
+{% endfor %}

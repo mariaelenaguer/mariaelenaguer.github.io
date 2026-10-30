@@ -1,0 +1,25 @@
+---
+layout: subpage
+title: Teaching
+permalink: /teaching/
+subtitle: University of California, Los Angeles · Department of Economics
+---
+
+{% comment %} Courses are listed in _data/teaching.yml {% endcomment %}
+{% assign teaching = site.data.teaching %}
+
+<section class="paper-section">
+  <h2 class="paper-section-title">Instructor</h2>
+  {% for course in teaching.instructor %}
+    {% include course.html course=course featured=true %}
+  {% endfor %}
+</section>
+
+<section class="paper-section">
+  <h2 class="paper-section-title">Teaching Assistant</h2>
+  <div class="card-grid">
+    {% for course in teaching.teaching_assistant %}
+      {% include course.html course=course %}
+    {% endfor %}
+  </div>
+</section>

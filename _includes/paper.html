@@ -1,0 +1,42 @@
+{% assign paper = include.paper %}
+<article class="paper">
+  <h3 class="paper-title">
+    {% if paper.url %}<a href="{{ paper.url }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+  </h3>
+
+  {% if paper.coauthors %}
+  <p class="paper-coauthors">with {{ paper.coauthors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+  {% endif %}
+
+  {% if paper.note %}
+  <p class="paper-note">{{ paper.note }}</p>
+  {% endif %}
+
+  {% if paper.journal %}
+  <p class="paper-meta"><em>{{ paper.journal }}</em>{% if paper.citation %}, {{ paper.citation }}{% endif %}</p>
+  {% endif %}
+
+  {% if paper.status %}
+  <p class="paper-meta">{{ paper.status }}</p>
+  {% endif %}
+
+  {% if paper.abstract or paper.links or paper.journal %}
+  <div class="paper-links">
+    {% if paper.abstract %}
+    <button type="button" class="abstract-toggle" aria-expanded="false" aria-controls="abstract-{{ paper.id }}">Abstract</button>
+    {% endif %}
+    {% if paper.journal and paper.url %}
+    <a href="{{ paper.url }}">Paper</a>
+    {% endif %}
+    {% for link in paper.links %}
+    <a href="{{ link.url }}">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if paper.abstract %}
+  <div class="paper-abstract" id="abstract-{{ paper.id }}">
+    <div class="paper-abstract-inner">{{ paper.abstract | markdownify }}</div>
+  </div>
+  {% endif %}
+</article>
