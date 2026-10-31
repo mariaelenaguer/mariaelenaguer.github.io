@@ -1,0 +1,290 @@
+# Student evaluations shown on the Teaching page.
+# Averages from UCLA's Evaluation of Instruction reports, on a 1-9 scale.
+# A rating left out (e.g. knowledge on the instructor form) shows as "–".
+
+# Measures, in order, with the survey question each one reports
+# (instructor_question: the wording on the instructor form, if asked there).
+columns:
+  - key: overall
+    label: Overall
+    question: "What is your overall rating of the teaching assistant?"
+    instructor_question: "Your overall rating of the instructor."
+  - key: knowledge
+    label: Knowledge
+    question: "The T.A. was knowledgeable about the material."
+  - key: organization
+    label: Organization
+    question: "Section presentations were well prepared and organized."
+    instructor_question: "Class presentations were well prepared and organized."
+  - key: scope
+    label: Scope
+    question: "The teaching assistant expanded on course ideas."
+  - key: communication
+    label: Communication
+    question: "The teaching assistant had good communication skills."
+    instructor_question: "The instructor had good communication skills."
+  - key: concern
+    label: Concern
+    question: "The T.A. was concerned about student learning."
+    instructor_question: "The instructor was concerned about student learning."
+  - key: interaction
+    label: Interaction
+    question: "Students felt welcome in seeking help in or outside of the class."
+    instructor_question: "Students felt welcome in seeking help in or outside of the class."
+
+# Course averages (all responses pooled). Not shown on the page right now.
+by_course:
+  - course: Econ 1
+    role: Instructor
+    terms: 1
+    responses: 34
+    overall: 7.9
+    organization: 8.1
+    communication: 8.1
+    concern: 8.0
+    interaction: 8.0
+  - course: Econ 1
+    role: Teaching assistant
+    terms: 5
+    responses: 78
+    overall: 8.5
+    knowledge: 8.5
+    organization: 8.4
+    scope: 8.2
+    communication: 8.4
+    concern: 8.5
+    interaction: 8.4
+  - course: Econ 11
+    role: Teaching assistant
+    terms: 4
+    responses: 176
+    overall: 7.9
+    knowledge: 8.0
+    organization: 7.8
+    scope: 7.6
+    communication: 7.8
+    concern: 7.8
+    interaction: 7.9
+  - course: Econ 101
+    role: Teaching assistant
+    terms: 2
+    responses: 27
+    overall: 7.9
+    knowledge: 7.6
+    organization: 7.7
+    scope: 7.4
+    communication: 7.5
+    concern: 7.7
+    interaction: 7.6
+
+# One row per term, grouped by course (the table on the Teaching page).
+# Means, with medians under `median` (the table can switch between them).
+# Optional award: shown next to the course name.
+by_term:
+  - course: Econ 1
+    terms:
+      - term: Fall 2022
+        responses: 13
+        overall: 8.4
+        knowledge: 8.4
+        organization: 8.1
+        scope: 8.4
+        communication: 8.5
+        concern: 8.5
+        interaction: 8.5
+        median:
+          overall: 9
+          knowledge: 8
+          organization: 8
+          scope: 8
+          communication: 9
+          concern: 9
+          interaction: 9
+      - term: Winter 2023
+        responses: 17
+        overall: 8.5
+        knowledge: 8.5
+        organization: 8.5
+        scope: 8.4
+        communication: 8.6
+        concern: 8.6
+        interaction: 8.6
+        median:
+          overall: 9
+          knowledge: 9
+          organization: 9
+          scope: 9
+          communication: 9
+          concern: 9
+          interaction: 9
+      - term: Spring 2023
+        responses: 24
+        overall: 8.5
+        knowledge: 8.6
+        organization: 8.6
+        scope: 8.4
+        communication: 8.3
+        concern: 8.5
+        interaction: 8.3
+        median:
+          overall: 9
+          knowledge: 9
+          organization: 9
+          scope: 9
+          communication: 9
+          concern: 9
+          interaction: 9
+      - term: Spring 2024
+        responses: 11
+        overall: 8.5
+        knowledge: 8.7
+        organization: 8.5
+        scope: 8.5
+        communication: 8.6
+        concern: 8.5
+        interaction: 8.6
+        median:
+          overall: 9
+          knowledge: 9
+          organization: 9
+          scope: 9
+          communication: 9
+          concern: 9
+          interaction: 9
+      - term: Fall 2024
+        responses: 13
+        overall: 8.2
+        knowledge: 8.3
+        organization: 8.0
+        scope: 7.3
+        communication: 7.9
+        concern: 8.2
+        interaction: 7.9
+        median:
+          overall: 8
+          knowledge: 8
+          organization: 8
+          scope: 8
+          communication: 8
+          concern: 8
+          interaction: 8
+      - term: Summer 2025 (instructor)
+        responses: 34
+        overall: 7.9
+        organization: 8.1
+        communication: 8.1
+        concern: 8.0
+        interaction: 8.0
+        median:
+          overall: 9
+          organization: 8.5
+          communication: 9
+          concern: 9
+          interaction: 9
+  - course: Econ 11
+    award: TA Award for Excellence in Teaching - Fall 2025
+    terms:
+      - term: Winter 2024
+        responses: 44
+        overall: 7.9
+        knowledge: 8.1
+        organization: 7.8
+        scope: 7.7
+        communication: 7.9
+        concern: 7.9
+        interaction: 8.1
+        median:
+          overall: 8
+          knowledge: 9
+          organization: 8
+          scope: 8
+          communication: 8
+          concern: 9
+          interaction: 9
+      - term: Winter 2025
+        responses: 52
+        overall: 7.7
+        knowledge: 7.8
+        organization: 7.4
+        scope: 7.4
+        communication: 7.5
+        concern: 7.3
+        interaction: 7.5
+        median:
+          overall: 8
+          knowledge: 8
+          organization: 8
+          scope: 7.5
+          communication: 8
+          concern: 7
+          interaction: 8
+      - term: Spring 2025
+        responses: 56
+        overall: 7.9
+        knowledge: 8.3
+        organization: 7.9
+        scope: 7.6
+        communication: 7.9
+        concern: 8.0
+        interaction: 8.0
+        median:
+          overall: 8
+          knowledge: 9
+          organization: 9
+          scope: 9
+          communication: 9
+          concern: 9
+          interaction: 9
+      - term: Fall 2025
+        responses: 24
+        overall: 8.5
+        knowledge: 8.2
+        organization: 8.2
+        scope: 8.2
+        communication: 8.3
+        concern: 8.2
+        interaction: 8.2
+        median:
+          overall: 9
+          knowledge: 9
+          organization: 9
+          scope: 9
+          communication: 9
+          concern: 9
+          interaction: 9
+  - course: Econ 101
+    terms:
+      - term: Winter 2026
+        responses: 19
+        overall: 7.8
+        knowledge: 7.4
+        organization: 7.5
+        scope: 7.2
+        communication: 7.3
+        concern: 7.5
+        interaction: 7.4
+        median:
+          overall: 8
+          knowledge: 7
+          organization: 8
+          scope: 7
+          communication: 7
+          concern: 8
+          interaction: 8
+      - term: Spring 2026
+        responses: 8
+        overall: 8.0
+        knowledge: 8.0
+        organization: 8.2
+        scope: 7.8
+        communication: 8.0
+        concern: 8.2
+        interaction: 8.0
+        median:
+          overall: 9
+          knowledge: 8.5
+          organization: 9
+          scope: 8
+          communication: 8.5
+          concern: 9
+          interaction: 8.5

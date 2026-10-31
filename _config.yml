@@ -23,6 +23,8 @@ description: "I am a PhD candidate in Economics at UCLA"
 job_market: 'I am on the 2026-2027 job market'
 # Shown under the job market line on the homepage. Leave blank ('') to hide.
 fields: 'Economics of Education, Industrial Organization'
+# Shown with the primary fields on the About page. Leave blank ('') to hide.
+secondary_field: 'Development'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mariaelenaguer.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: 'mariaelenaguer'
@@ -102,7 +104,7 @@ pagination:
 ### Phantom settings
 footer_text: '© 2026 Maria Elena Guerrero Amezaga. Based on the Phantom Jekyll theme by Jami Gibbs'
 admin_name: 'Maria Elena Guerrero Amezaga'
-google_analytics: "UA-187508562-1" # Update with your own tracking ID
+google_analytics: "G-4WFNY8ZM40" # Google Analytics Measurement ID (property "Maria Elena Personal Website - GA4")
 enable_contact: false
 
 # Set to true to bring back the animated research feed (built from _posts) below the homepage hero.

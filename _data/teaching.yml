@@ -6,21 +6,23 @@
 #   term    e.g. Summer 2025
 #   times   number of quarters taught (shown when there is no `term`)
 #   award   highlighted label, e.g. Teaching Assistant Award, 2025
+#   award_note  what the award is; shown as a note below the cards
 #   links   e.g. [{ label: Syllabus, url: /syllabus.pdf }]
 
 instructor:
   - code: Econ 1
-    name: Principles of Microeconomics
+    name: Principles of Economics
     term: Summer 2025
 
 teaching_assistant:
   - code: Econ 1
-    name: Principles of Microeconomics
+    name: Principles of Economics
     times: 5
   - code: Econ 11
     name: Microeconomic Theory 1
     times: 4
-    award: Teaching Assistant Award, 2025
+    award: TA Award for Excellence in Teaching - Fall 2025
+    award_note: This award is given each quarter by the economics department to the graduate student with the highest teaching evaluations for an undergraduate discussion section.
   - code: Econ 101
     name: Microeconomic Theory 2
     times: 2

@@ -369,7 +369,7 @@ p.paper-meta {
   }
 }
 
-.abstract-toggle {
+.collapse-toggle {
   background: none;
   border: none;
   padding: 0;
@@ -384,23 +384,25 @@ p.paper-meta {
   }
 }
 
-// Animates open by growing the grid row from 0fr to 1fr.
-.paper-abstract {
+// Opened by a .collapse-toggle; animates by growing the grid row from 0fr to 1fr.
+.collapsible {
   display: grid;
   grid-template-rows: 0fr;
   @include transition(grid-template-rows .3s ease);
   &.is-open {
     grid-template-rows: 1fr;
   }
+  > div {
+    overflow: hidden;
+    visibility: hidden;
+    @include transition(visibility .3s);
+  }
+  &.is-open > div {
+    visibility: visible;
+  }
 }
 
 .paper-abstract-inner {
-  overflow: hidden;
-  visibility: hidden;
-  @include transition(visibility .3s);
-  .is-open > & {
-    visibility: visible;
-  }
   p {
     margin-top: 0.9em;
     padding-left: 1.1em;
@@ -502,6 +504,18 @@ p.course-award {
   }
 }
 
+// Explains an award, below the course cards.
+p.award-note {
+  margin: 0.2em 0 0 0;
+  color: $muted;
+  font-size: 13px;
+  line-height: 1.6;
+  i {
+    margin-right: 0.4em;
+    color: #e0a526;
+  }
+}
+
 // Row of equal-height cards that wraps on narrow screens (Teaching, References).
 .card-grid {
   display: flex;
@@ -510,6 +524,228 @@ p.course-award {
   > * {
     flex: 1 1 200px;
     margin: 0 0.6em 1.2em 0.6em;
+  }
+}
+
+// Two cards per row; one per row on phones.
+.card-grid-2 > * {
+  flex-basis: calc(50% - 1.2em);
+  min-width: 240px;
+}
+
+// Evaluations: term-by-term table, cells shaded by score (see teaching.html).
+p.eval-intro {
+  margin: 0 0 1.3em 0;
+  color: $muted;
+  font-size: 14.5px;
+  line-height: 1.6;
+  strong {
+    color: #333;
+    font-weight: 600;
+  }
+}
+
+.eval-award {
+  display: inline-block;
+  margin-left: 0.8em;
+  padding: 2px 7px;
+  border-radius: 3px;
+  background-color: #fdf3dc;
+  color: #8a5a00;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  vertical-align: 1px;
+  i {
+    margin-right: 0.35em;
+    color: #e0a526;
+  }
+}
+
+// Scale reminder on each course's header row: right-aligned; its own line on phones.
+.eval-group-scale {
+  float: right;
+  color: $muted;
+  font-size: 11.5px;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+  @include bp-xsmall {
+    display: block;
+    float: none;
+    margin-top: 0.3em;
+  }
+}
+
+// Key for the cell shading: the same blue ramp, from 7 (lightest) to 9.
+p.eval-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0.8em 0 0 0;
+  color: $muted;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.eval-legend-bar {
+  width: 90px;
+  height: 10px;
+  border-radius: 2px;
+  background: linear-gradient(to right, rgba(51, 122, 183, 0.04), rgba(51, 122, 183, 0.29));
+}
+
+// Mean / median switch: radio buttons styled as a two-part button (see teaching.html).
+.eval-stat-toggle {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.8em;
+  font-size: 13px;
+  label {
+    margin: 0;
+    padding: 4px 14px;
+    border: 1px solid #d5e0e7;
+    color: $muted;
+    font-weight: 600;
+    cursor: pointer;
+    @include transition(background-color .15s ease, color .15s ease);
+    &:hover {
+      color: $accent;
+    }
+    &:first-of-type {
+      border-radius: 4px 0 0 4px;
+    }
+    &:last-of-type {
+      margin-left: -1px;
+      border-radius: 0 4px 4px 0;
+    }
+  }
+}
+
+.eval-stat-label {
+  margin-right: 0.7em;
+  color: $muted;
+}
+
+#eval-stat-mean:checked ~ .eval-stat-toggle label[for="eval-stat-mean"],
+#eval-stat-median:checked ~ .eval-stat-toggle label[for="eval-stat-median"] {
+  border-color: $accent;
+  background-color: $accent;
+  color: white;
+}
+
+#eval-stat-mean:focus-visible ~ .eval-stat-toggle label[for="eval-stat-mean"],
+#eval-stat-median:focus-visible ~ .eval-stat-toggle label[for="eval-stat-median"] {
+  outline: 2px solid $accent;
+  outline-offset: 2px;
+}
+
+.stat-median {
+  display: none;
+}
+
+#eval-stat-median:checked ~ .eval-table-wrap {
+  td.eval-score {
+    background-color: var(--median-shade);
+  }
+  .stat-mean {
+    display: none;
+  }
+  .stat-median {
+    display: inline;
+  }
+}
+
+.eval-table-wrap {
+  overflow-x: auto;
+}
+
+.eval-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  th, td {
+    padding: 0.65em 0.5em;
+    text-align: center;
+    border-bottom: 1px solid $hairline;
+  }
+  // Course / term column stays in view while the table scrolls sideways on phones.
+  th:first-child {
+    position: sticky;
+    left: 0;
+    padding-left: 0;
+    background-color: white;
+    text-align: left;
+    white-space: nowrap;
+  }
+  thead th {
+    vertical-align: bottom;
+    color: $muted;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  tbody th {
+    color: #333;
+    font-weight: 600;
+  }
+  // Shaded score cells (shade set per cell in teaching.html); a 2px white gap separates neighbors.
+  td.eval-score {
+    border: 2px solid white;
+    background-color: var(--mean-shade);
+  }
+  .eval-group th {
+    padding-top: 1.4em;
+    border-bottom: none;
+    color: $accent;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+}
+
+p.eval-scroll-hint {
+  display: none;
+  margin: 0.6em 0 0 0;
+  color: $faint;
+  font-size: 12px;
+  @include bp-xsmall {
+    display: block;
+  }
+}
+
+.eval-notes {
+  margin-top: 1.8em;
+  color: $muted;
+  font-size: 13px;
+  p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0 0 0.8em 0;
+  }
+  dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.35em 1.2em;
+    margin: 0 0 0.9em 0;
+    @include bp-xsmall {
+      grid-template-columns: 1fr;
+      gap: 0.1em;
+    }
+  }
+  dt {
+    color: #333;
+    font-weight: 600;
+  }
+  dd {
+    margin: 0;
+    @include bp-xsmall {
+      margin-bottom: 0.6em;
+    }
   }
 }
 
@@ -567,6 +803,25 @@ img.about-pic {
   }
 }
 
+.about-fields {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35em 1.4em;
+  margin: 1.6em 0 0 0;
+  padding-top: 1.2em;
+  border-top: 1px solid $hairline;
+  font-size: 15px;
+  line-height: 1.5;
+  dt {
+    color: #333;
+    font-weight: 600;
+  }
+  dd {
+    margin: 0;
+    color: #555;
+  }
+}
+
 .about-references {
   margin-top: 3em;
 }
@@ -578,8 +833,10 @@ img.about-pic {
 }
 
 .reference-role {
+  @extend %opensans;
   display: inline-block;
-  margin-top: 0.5em;
+  margin-left: 0.6em;
+  vertical-align: 2px;
   padding: 2px 9px;
   border-radius: 3px;
   background-color: #eaf1f8;

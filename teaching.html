@@ -22,4 +22,84 @@ subtitle: University of California, Los Angeles · Department of Economics
       {% include course.html course=course %}
     {% endfor %}
   </div>
+  {% for course in teaching.teaching_assistant %}
+  {% if course.award_note %}
+  <p class="award-note"><i class="fa fa-star"></i>{{ course.award_note }}</p>
+  {% endif %}
+  {% endfor %}
 </section>
+
+{% comment %} Evaluation averages are listed in _data/evaluations.yml {% endcomment %}
+{% assign evals = site.data.evaluations %}
+{% if evals %}
+<section class="paper-section">
+  <h2 class="paper-section-title">Evaluations</h2>
+
+  <p class="eval-intro">Student ratings from UCLA's evaluations of instruction, on a scale from <strong>1 (very low or never) to 9 (very high or always)</strong>. Switch between the mean and the median rating for each term.</p>
+
+  {% comment %}
+    Mean / median switch: two radio buttons (no JavaScript). Each score cell holds both
+    numbers and both shades; CSS shows the one that is selected.
+    Shading: lightest at 7 or below, darkest at 9.
+  {% endcomment %}
+  <div class="eval-stats">
+    <input type="radio" name="eval-stat" id="eval-stat-mean" class="eval-stat-input sr-only" checked />
+    <input type="radio" name="eval-stat" id="eval-stat-median" class="eval-stat-input sr-only" />
+    <div class="eval-stat-toggle">
+      <span class="eval-stat-label">Show</span>
+      <label for="eval-stat-mean">Mean</label><label for="eval-stat-median">Median</label>
+    </div>
+
+    <p class="eval-scroll-hint">Swipe sideways to see all columns.</p>
+
+    <div class="eval-table-wrap">
+      <table class="eval-table">
+        <thead>
+          <tr>
+            <th>Term</th>
+            <th>Responses</th>
+            {% for column in evals.columns %}<th>{{ column.label | replace_first: ' ', '&nbsp;' }}</th>{% endfor %}
+          </tr>
+        </thead>
+        {% for group in evals.by_term %}
+        <tbody>
+          <tr class="eval-group">
+            <th colspan="{{ evals.columns.size | plus: 2 }}">{{ group.course }}{% if group.award %}<span class="eval-award"><i class="fa fa-star"></i>{{ group.award }}</span>{% endif %}<span class="eval-group-scale">Max = 9, Min = 1</span></th>
+          </tr>
+          {% for row in group.terms %}
+          <tr>
+            <th scope="row">{{ row.term }}</th>
+            <td>{{ row.responses }}</td>
+            {% for column in evals.columns %}
+            {% assign mean = row[column.key] %}
+            {% assign median = row.median[column.key] %}
+            {% if mean %}
+            {% assign mean_shade = mean | minus: 7 | divided_by: 2.0 | at_least: 0 | at_most: 1 | times: 0.25 | plus: 0.04 | round: 3 %}
+            {% assign median_shade = median | minus: 7 | divided_by: 2.0 | at_least: 0 | at_most: 1 | times: 0.25 | plus: 0.04 | round: 3 %}
+            <td class="eval-score" style="--mean-shade: rgba(51, 122, 183, {{ mean_shade }}); --median-shade: rgba(51, 122, 183, {{ median_shade }})"><span class="stat-mean">{{ mean }}</span><span class="stat-median">{{ median }}</span></td>
+            {% else %}
+            <td>–</td>
+            {% endif %}
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+        {% endfor %}
+      </table>
+    </div>
+
+    <p class="eval-legend" aria-hidden="true">Shading <span>7</span><span class="eval-legend-bar"></span><span>9</span></p>
+  </div>
+
+  <div class="eval-notes">
+    <p>Each column summarizes the answers to:</p>
+    <dl>
+      {% for column in evals.columns %}
+      <dt>{{ column.label }}</dt>
+      <dd>“{{ column.question }}”</dd>
+      {% endfor %}
+    </dl>
+    <p>The instructor evaluation (Summer 2025) asks the same questions about the instructor and class instead of the T.A. and section, and does not ask about knowledge or scope.</p>
+  </div>
+</section>
+{% endif %}

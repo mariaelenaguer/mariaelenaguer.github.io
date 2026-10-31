@@ -5,9 +5,9 @@ permalink: /about/
 ---
 
 {% capture bio %}
-I am a Ph.D. candidate at UCLA's economics department. My research is in the economics of education and industrial organization, with a focus on developing countries. I have ongoing work in Colombia, Peru, and Uganda.
+I am a PhD candidate at UCLA's economics department. My research is in the economics of education and industrial organization, with a focus on developing countries. I have ongoing work in Colombia, Peru, and Uganda.
 
-Prior to joining UCLA, I was a Pre-Doctoral Research Fellow at [Yale’s Tobin Center for Economic Policy](https://tobin.yale.edu/). Before that, I worked at [IPA](http://www.poverty-action.org/study/information-about-returns-post-primary-education-peru) in Peru, and at [J-PAL LAC](https://www.povertyactionlab.org/latin-america-caribbean) in the Dominican Republic. I received my B.A. in Economics from the _Pontificia Universidad Catolica del Peru_ in 2018.
+Prior to joining UCLA, I was a Pre-Doctoral Research Fellow at [Yale’s Tobin Center for Economic Policy](https://tobin.yale.edu/). Before that, I worked at [IPA](http://www.poverty-action.org/study/information-about-returns-post-primary-education-peru) in Peru, and at [J-PAL LAC](https://www.povertyactionlab.org/latin-america-caribbean) in the Dominican Republic. I received my B.A. in Economics from the _Pontificia Universidad Católica del Perú_ in 2018.
 {% endcapture %}
 
 <div class="about">
@@ -28,6 +28,17 @@ Prior to joining UCLA, I was a Pre-Doctoral Research Fellow at [Yale’s Tobin C
 
   <div class="about-bio">
     {{ bio | markdownify }}
+
+    {% if site.fields and site.fields != '' %}
+    <dl class="about-fields">
+      <dt>Primary fields</dt>
+      <dd>{{ site.fields }}</dd>
+      {% if site.secondary_field and site.secondary_field != '' %}
+      <dt>Secondary field</dt>
+      <dd>{{ site.secondary_field }}</dd>
+      {% endif %}
+    </dl>
+    {% endif %}
   </div>
 
 </div>
@@ -36,13 +47,13 @@ Prior to joining UCLA, I was a Pre-Doctoral Research Fellow at [Yale’s Tobin C
 {% if site.data.references %}
 <section class="paper-section about-references">
   <h2 class="paper-section-title">References</h2>
-  <div class="card-grid">
+  <div class="card-grid card-grid-2">
     {% for reference in site.data.references %}
     <div class="reference">
-      <h3 class="reference-name">{{ reference.name }}</h3>
-      {% if reference.role %}
-      <span class="reference-role">{{ reference.role }}</span>
-      {% endif %}
+      <h3 class="reference-name">
+        {{ reference.name }}
+        {% if reference.role %}<span class="reference-role">{{ reference.role }}</span>{% endif %}
+      </h3>
       {% if reference.institution %}
       {% assign institution_parts = reference.institution | split: ', ' %}
       <p class="reference-institution">{% for part in institution_parts %}<span>{{ part }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>

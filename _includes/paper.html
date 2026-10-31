@@ -23,7 +23,7 @@
   {% if paper.abstract or paper.links or paper.journal %}
   <div class="paper-links">
     {% if paper.abstract %}
-    <button type="button" class="abstract-toggle" aria-expanded="false" aria-controls="abstract-{{ paper.id }}">Abstract</button>
+    <button type="button" class="collapse-toggle" aria-expanded="false" aria-controls="abstract-{{ paper.id }}" data-closed-label="Abstract" data-open-label="Hide abstract">Abstract</button>
     {% endif %}
     {% if paper.journal and paper.url %}
     <a href="{{ paper.url }}">Paper</a>
@@ -35,7 +35,7 @@
   {% endif %}
 
   {% if paper.abstract %}
-  <div class="paper-abstract" id="abstract-{{ paper.id }}">
+  <div class="paper-abstract collapsible" id="abstract-{{ paper.id }}">
     <div class="paper-abstract-inner">{{ paper.abstract | markdownify }}</div>
   </div>
   {% endif %}
